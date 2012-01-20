@@ -72,7 +72,39 @@
 .module_hmenu.primary a:hover {
 	color: #980153;
 	text-decoration: none;
-}/*top modules in slideshow*/
+}
+
+/*logo in header*/
+.module.logo {
+	padding-top: 33px;
+	float: left;
+}
+
+/* masthead */
+
+.module.masthead {
+	background: url('../images/bg_masthead.png') top center repeat-x;
+	height: 74px;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	color: #ffffff;
+}
+
+.module.masthead > div {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.module.masthead h3 {
+	font-size: 40px;
+	line-height: 40px;
+	padding: 5px 0;
+	color: #ffffff;
+}
+
+/*top modules in slideshow*/
 
 #top .moduletable {
 	padding: 32px 400px 32px 0;
