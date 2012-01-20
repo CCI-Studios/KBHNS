@@ -49,27 +49,27 @@
 	left: 8px;
 }
 
-.moduletable_hmenu.primary > ul > li > ul > li {
+.module_hmenu.primary div > div > div > ul > li > ul > li {
 	list-style: none;
 	line-height: 20px;
 }
 
-.moduletable_hmenu.primary > ul > li > ul > li:hover {
+.module_hmenu.primary div > div > div > ul > li > ul > li:hover {
 	background: #980153;
 }
 
-.moduletable_hmenu.primary > ul > li > ul > li a {
+.module_hmenu.primary div > div > div > ul > li > ul > li a {
 	padding-left: 7px;
 	color: #989898;
 }
 
-.moduletable_hmenu.primary > ul > li > ul > li:hover a {
+.module_hmenu.primary div > div > div > ul > li > ul > li:hover a {
 	color: #ffffff;
 }
 
 /*this is for menu links that are not separators*/
-.moduletable_hmenu.primary a {color: #989898;}
-.moduletable_hmenu.primary a:hover {
+.module_hmenu.primary a {color: #989898;}
+.module_hmenu.primary a:hover {
 	color: #980153;
 	text-decoration: none;
 }/*top modules in slideshow*/
