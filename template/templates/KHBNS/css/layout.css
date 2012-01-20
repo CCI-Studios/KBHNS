@@ -9,6 +9,7 @@
 #header {
 	background: #ffffff url('../images/bg_header.jpg') top center no-repeat;
 	height: 395px;
+	position: relative;
 }
 
 #body {
