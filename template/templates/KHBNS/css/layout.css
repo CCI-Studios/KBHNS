@@ -22,5 +22,6 @@
 }
 
 #footer > div {
-	background: url('../images/bg_footerTopShadow.png') top center no-repeat;
+	background: url('../images/bg_footerShadow.png') top center no-repeat;
+	padding-top: 20px;
 }
