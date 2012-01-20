@@ -175,3 +175,7 @@
 	width: 410px;
 	margin: 0 0 0 36px;
 }
+
+#bottom .moduletable p {
+	width: 230px;
+}
