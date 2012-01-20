@@ -133,3 +133,10 @@
 .moduletable.community h3.active {
 	background: url('../images/h3_community-hover.png') left center no-repeat;
 }
+
+/* bottom modules */
+
+#bottom .moduletable {
+	border: 1px solid #cccccc;
+	width: 450px;
+}
