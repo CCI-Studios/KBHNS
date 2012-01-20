@@ -7,28 +7,69 @@
 }
 
 .moduletable_hmenu.primary {
+	float: right;
+	padding-top: 80px; /*TODO REMOVE padding-TOP*/
 	line-height: 12px;
 	text-transform: uppercase;
 }
 
-.moduletable_hmenu.primary a {
-	color: #989898;
-}
-
-.moduletable_hmenu.primary a:hover {
-	color: #980153;
-}
-
-.moduletable_hmenu > ul {
+.moduletable_hmenu.primary > ul {
 	margin: 0;
 	padding: 0;
 }
 
-.moduletable_hmenu > ul > li {
+.moduletable_hmenu.primary > ul > li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 	position: relative;
-	
-	padding: 0 5px;
+	padding: 21px 8px 0;
+	color: #989898;
+}
+
+.moduletable_hmenu.primary > ul > li:hover {
+	background: url('../images/menu_hover.png') top center no-repeat;
+	color: #980153;
+	cursor: pointer;
+}
+
+.moduletable_hmenu.primary > ul > li > ul {
+	display: none;
+	width: 161px;
+}
+
+.moduletable_hmenu.primary > ul > li:hover > ul {
+	padding: 0;
+	background: #ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px ;
+	display: inline-block;
+	position: absolute;
+	top: 21px;
+	left: 8px;
+}
+
+.moduletable_hmenu.primary > ul > li > ul > li {
+	list-style: none;
+	line-height: 20px;
+}
+
+.moduletable_hmenu.primary > ul > li > ul > li:hover {
+	background: #980153;
+}
+
+.moduletable_hmenu.primary > ul > li > ul > li a {
+	padding-left: 7px;
+	color: #989898;
+}
+
+.moduletable_hmenu.primary > ul > li > ul > li:hover a {
+	color: #ffffff;
+}
+
+/*this is for menu links that are not separators*/
+.moduletable_hmenu.primary a {color: #989898;}
+.moduletable_hmenu.primary a:hover {
+	color: #980153;
+	text-decoration: none;
 }
