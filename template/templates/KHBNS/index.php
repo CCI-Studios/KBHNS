@@ -54,9 +54,9 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 	
-	<div id="header">
+	<div id="header"><div class="container">
 		<jdoc:include type="modules" name="header" style="xhtml" />
-	</div>
+	</div></div>
 	
 	<div id="body"><div class="container">
 		<div id="top">
