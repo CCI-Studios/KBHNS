@@ -71,11 +71,12 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<div class="clear"></div>
 	</div></div>
 
-	<div id="footer"><div><div>
+	<div id="footer"><div class="container">
 		<jdoc:include type="modules" name="footer" style="xhtml" />
 		<div id="copyright">
-			
-		</div></div></div>
+			&copy;  <?php echo date('Y') ?> KBHNS Chartered Accountants. All Rights Reserved.
+			<a class="right" href="http://ccistudios.com">Site by CCI Studios</a>
+		</div></div>
 	</div>
 
 	<div class="hidden">
