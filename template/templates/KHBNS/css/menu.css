@@ -1,0 +1,138 @@
+.moduletable_hmenu {
+	
+}
+
+/* header menu */
+
+.module_hmenu.primary {
+	float: right;
+	padding-top: 59px; /*TODO REMOVE padding-TOP*/
+	line-height: 12px;
+	text-transform: uppercase;
+}
+
+.module_hmenu.primary .menu {
+	margin: 0;
+	padding: 0;
+}
+
+.module_hmenu.primary .menu > li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	padding: 21px 8px 10px;
+	color: #989898;
+}
+
+.module_hmenu.primary .menu > li:hover {
+	background: url('../images/menu_hover.png') top center no-repeat;
+	color: #980153;
+	cursor: pointer;
+}
+
+.module_hmenu.primary .menu li > ul {
+	display: none;
+	width: 161px;
+	padding: 0;
+	background: #ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px ;
+	position: absolute;
+	top: 31px;
+	left: 8px;
+}
+
+.module_hmenu.primary .menu > li:hover > ul {
+	display: block;
+}
+
+.module_hmenu.primary .menu > li > ul > li {
+	list-style: none;
+	line-height: 20px;
+}
+
+.module_hmenu.primary .menu > li > ul > li:hover {
+	background: #980153;
+}
+
+.module_hmenu.primary .menu > li > ul > li a {
+	padding-left: 7px;
+	color: #989898;
+}
+
+.module_hmenu.primary .menu > li > ul > li:hover a {
+	color: #ffffff;
+}
+
+/*this is for menu links that are not separators*/
+.module_hmenu.primary a {color: #989898;}
+.module_hmenu.primary a:hover {
+	color: #980153;
+	text-decoration: none;
+}
+
+/* footer menu */
+
+.moduletable_hmenu.secondary {
+	color: #ffffff;
+	font-size: 11px;
+	line-height: 11px;
+	text-transform: uppercase;
+}
+
+.moduletable_hmenu.secondary .menu {
+	margin: 0;
+	padding: 0;
+}
+
+.moduletable_hmenu.secondary .menu > li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	padding: 0 30px 0 0;
+	color: #ffffff;
+}
+
+.moduletable_hmenu.secondary .menu > li:hover span {
+	text-shadow: 2px 1px 2px rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+
+.moduletable_hmenu.secondary .menu li > ul {
+	width: 100%;
+	padding: 0;
+
+}
+
+.moduletable_hmenu. .menu > li:hover > ul {
+	display: block;
+}
+
+.moduletable_hmenu.secondary .menu > li > ul > li {
+	text-transform: none;
+	list-style: none;
+	line-height: 20px;
+}
+
+.moduletable_hmenu.secondary .menu > li > ul > li a {
+	color: #ffffff;
+}
+
+.moduletable_hmenu.secondary .menu > li > ul > li a:hover {
+	text-decoration: underline;
+}
+
+
+/*this is for menu links that are not separators*/
+.moduletable_hmenu.secondary a {color: #ffffff;}
+.moduletable_hmenu.secondary a:hover {
+	color: #989898;
+	text-decoration: none;
+}
+
+
+
+
+
