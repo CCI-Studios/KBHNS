@@ -62,17 +62,20 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<div id="top" class="tab-container">
 			<jdoc:include type="modules" name="top" style="xhtml" />
 		</div>
+	<div class="container">
 		<div id="content">
 			<jdoc:include type="component" />
 		</div>
 		<div id="bottom">
 			<jdoc:include type="modules" name="bottom" style="xhtml" />
+			<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
 	</div></div>
 
 	<div id="footer"><div class="container">
 		<jdoc:include type="modules" name="footer" style="xhtml" />
+		<div class="clear"></div>
 		<div id="copyright">
 			&copy;  <?php echo date('Y') ?> KBHNS Chartered Accountants. All Rights Reserved.
 			<a class="right" href="http://ccistudios.com">Site by CCI Studios</a>
