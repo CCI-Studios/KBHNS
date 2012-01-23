@@ -11,3 +11,25 @@
 /* TODO Update selection BG color */
 ::-moz-selection{ background: #980153; color:#fff; text-shadow: none; }
 ::selection { background:#980153; color:#fff; text-shadow: none; }
+
+.button_readmore {
+	background: url('../images/button_readMore.png') top center no-repeat;
+	font-family: Haettenschweiler; /*TODO REMOVE FONT AND REPLACE WITH BETTER*/
+	text-transform: uppercase;
+	display: inline-block;
+	width: 108px;
+	height: 31px;
+}
+.button_readmore a {color: #989898; padding: 0 0 0 10px;}
+.button_readmore a:hover {color: #980153; text-decoration: none;}
+
+.button_dropdown {
+	background: url('../images/button_dropdown.png') top center no-repeat;
+	font-family: Haettenschweiler; /*TODO REMOVE FONT AND REPLACE WITH BETTER*/
+	text-transform: uppercase;
+	display: inline-block;
+	width: 108px;
+	height: 31px;
+}
+.button_dropdown a {color: #989898; padding: 0 0 0 10px;}
+.button_dropdown a:hover {color: #980153; text-decoration: none;}
