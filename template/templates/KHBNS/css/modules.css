@@ -31,68 +31,6 @@
 	color: #ffffff;
 }
 
-/*top modules in slideshow*/
-
-#top .moduletable {
-	padding: 32px 400px 32px 0;
-	font-size: 14px;
-}
-
-#top .moduletable h3 {
-	color: #bcbdc0;
-	margin: 22px 0;
-}
-
-#top .moduletable h3:hover,
-#top .moduletable h3.active {
-	color: #980153;
-}
-
-/* about kbhns */
-.moduletable.aboutKBHNS {
-	background: url('../images/bg_aboutKBHNS.png') right bottom no-repeat;
-}
-
-.moduletable.aboutKBHNS h3 {
-	background: url('../images/h3_aboutKBHNS.png') left center no-repeat;
-	padding-left: 60px;
-}
-
-.moduletable.aboutKBHNS h3:hover,
-.moduletable.aboutKBHNS h3.active {
-	background: url('../images/h3_aboutKBHNS-hover.png') left center no-repeat;
-}
-
-/* careers */
-.moduletable.careers {
-	background: url('../images/bg_careers.png') right bottom no-repeat;
-}
-
-.moduletable.careers h3 {
-	background: url('../images/h3_careers.png') left center no-repeat;
-	padding-left: 70px;
-}
-
-.moduletable.careers h3:hover,
-.moduletable.careers h3.active {
-	background: url('../images/h3_careers-hover.png') left center no-repeat;
-}
-
-/* in the community */
-.moduletable.community {
-	background: url('../images/bg_community.png') right bottom no-repeat;
-}
-
-.moduletable.community h3 {
-	background: url('../images/h3_community.png') left center no-repeat;
-	padding-left: 72px;
-}
-
-.moduletable.community h3:hover,
-.moduletable.community h3.active {
-	background: url('../images/h3_community-hover.png') left center no-repeat;
-}
-
 /* bottom modules */
 #bottom .moduletable:first-child {margin: 0;}
 #bottom .moduletable {
