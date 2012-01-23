@@ -17,6 +17,10 @@
 	padding-bottom: 40px;
 }
 
+#top {
+	background: url('../images/bg_tabs.png') top center no-repeat;
+}
+
 #footer {
 	background: url('../images/bg_footerRepeat.png') top center repeat-x;
 	height: 200px;
