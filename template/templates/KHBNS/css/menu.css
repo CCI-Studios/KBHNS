@@ -1,5 +1,26 @@
-.moduletable_hmenu {
-	
+.module_hmenu.primary .menu,
+.moduletable_hmenu.secondary .menu {
+	margin: 0;
+	padding: 0;
+}
+
+.module_hmenu.primary .menu > li:hover > ul,
+.moduletable_hmenu.seconary .menu > li:hover > ul {
+	display: block;
+}
+
+.module_hmenu.primary .menu > li,
+.moduletable_hmenu.secondary .menu > li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+}
+
+.module_hmenu.primary .menu > li > ul > li,
+.moduletable_hmenu.secondary .menu > li > ul > li {
+	list-style: none;
+	line-height: 20px;
 }
 
 /* header menu */
@@ -11,16 +32,7 @@
 	text-transform: uppercase;
 }
 
-.module_hmenu.primary .menu {
-	margin: 0;
-	padding: 0;
-}
-
 .module_hmenu.primary .menu > li {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
-	position: relative;
 	padding: 21px 8px 10px;
 	color: #989898;
 }
@@ -28,7 +40,6 @@
 .module_hmenu.primary .menu > li:hover {
 	background: url('../images/menu_hover.png') top center no-repeat;
 	color: #980153;
-	cursor: pointer;
 }
 
 .module_hmenu.primary .menu li > ul {
@@ -41,15 +52,6 @@
 	position: absolute;
 	top: 31px;
 	left: 8px;
-}
-
-.module_hmenu.primary .menu > li:hover > ul {
-	display: block;
-}
-
-.module_hmenu.primary .menu > li > ul > li {
-	list-style: none;
-	line-height: 20px;
 }
 
 .module_hmenu.primary .menu > li > ul > li:hover {
@@ -81,23 +83,14 @@
 	text-transform: uppercase;
 }
 
-.moduletable_hmenu.secondary .menu {
-	margin: 0;
-	padding: 0;
-}
-
+.moduletable_hmenu.secondary .menu > li:first-child {padding: 0;}
 .moduletable_hmenu.secondary .menu > li {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
-	position: relative;
-	padding: 0 30px 0 0;
+	padding: 0 0 0 30px;
 	color: #ffffff;
 }
 
 .moduletable_hmenu.secondary .menu > li:hover span {
 	text-shadow: 2px 1px 2px rgba(255, 255, 255, 1);
-	cursor: pointer;
 }
 
 .moduletable_hmenu.secondary .menu li > ul {
@@ -106,16 +99,11 @@
 
 }
 
-.moduletable_hmenu. .menu > li:hover > ul {
-	display: block;
-}
-
 .moduletable_hmenu.secondary .menu > li > ul > li {
 	text-transform: none;
-	list-style: none;
-	line-height: 20px;
 }
 
+.moduletable_hmenu.secondary a,
 .moduletable_hmenu.secondary .menu > li > ul > li a {
 	color: #ffffff;
 }
@@ -126,7 +114,6 @@
 
 
 /*this is for menu links that are not separators*/
-.moduletable_hmenu.secondary a {color: #ffffff;}
 .moduletable_hmenu.secondary a:hover {
 	color: #989898;
 	text-decoration: none;
