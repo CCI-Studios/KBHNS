@@ -120,6 +120,9 @@
 }
 
 
+.module_hmenu .menu li.hidden { display: none; }
+.moduletable_hmenu.secondary li.hidden { display: inline-block; }
+.moduletable_hmenu.secondary li.hidden a { display: inline;}
 
 
 .moduletable_hmenu.secondary .menu > li.outline {
