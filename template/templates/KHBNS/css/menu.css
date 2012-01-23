@@ -122,4 +122,17 @@
 
 
 
+.moduletable_hmenu.secondary .menu > li.outline {
+	width: 115px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 
+.moduletable_hmenu.secondary .menu > li.outline ~ li.outline { top: 20px; }
+.moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline { top: 40px; }
+.moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline { top: 60px; }
+.moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 80px; }
+.moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 100px; }
+.moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 120px; }
+.moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 140px; }
