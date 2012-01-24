@@ -1,10 +1,17 @@
 /* @group modules */
 .moduletable {}
 
-/*logo in header*/
+/* logo in header */
 .module.logo {
 	padding-top: 33px;
 	float: left;
+}
+
+/* linkedIn link */
+
+.module.linkedIn {
+	float: right;
+	padding: 20px 120px 0 0; /*FIXME CHANGE PADDING LEFT TO 15px when dropdown module is put in*/ 
 }
 
 /* masthead */

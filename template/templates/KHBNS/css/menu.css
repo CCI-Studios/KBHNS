@@ -28,7 +28,7 @@
 
 .module_hmenu.primary {
 	float: right;
-	padding-top: 59px; /*TODO REMOVE padding-TOP*/
+	padding-top: 10px; /*TODO REMOVE padding-TOP*/
 	line-height: 12px;
 	text-transform: uppercase;
 }
