@@ -14,22 +14,28 @@
 
 .button_readmore {
 	background: url('../images/button_readMore.png') top center no-repeat;
-	font-family: Haettenschweiler; /*TODO REMOVE FONT AND REPLACE WITH BETTER*/
+	font-size: 12px;
+	font-weight: bold;
 	text-transform: uppercase;
 	display: inline-block;
 	width: 108px;
 	height: 31px;
+	color: #989898;
+	line-height: 29px;
+	text-decoration: none;
 }
-.button_readmore a {color: #989898; padding: 0 0 0 10px;}
-.button_readmore a:hover {color: #980153; text-decoration: none;}
+.button_readmore div {color: #989898; padding: 0 0 0 15px; }
 
 .button_dropdown {
 	background: url('../images/button_dropdown.png') top center no-repeat;
-	font-family: Haettenschweiler; /*TODO REMOVE FONT AND REPLACE WITH BETTER*/
+	font-size: 12px;
+	font-weight: bold;
 	text-transform: uppercase;
 	display: inline-block;
 	width: 108px;
 	height: 31px;
+	color: #989898;
+	line-height: 29px;
+	text-decoration: none;
 }
-.button_dropdown a {color: #989898; padding: 0 0 0 10px;}
-.button_dropdown a:hover {color: #980153; text-decoration: none;}
+.button_dropdown div {color: #989898; padding: 0 0 0 15px; }
