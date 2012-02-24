@@ -21,6 +21,17 @@
 	background: url('../images/bg_tabs.png') top center no-repeat;
 }
 
+#sidebar {
+	float: left;
+	width: 190px;
+	padding: 0 40px 0 0;
+}
+
+#content {
+	float: left;
+	width: 710px;
+}
+
 #footer {
 	background: url('../images/bg_footerRepeat.png') top center repeat-x;
 	height: 200px;
