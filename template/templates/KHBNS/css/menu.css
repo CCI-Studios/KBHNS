@@ -120,6 +120,7 @@
 
 .moduletable_hmenu.secondary .menu > li > div > ul > li {
 	text-transform: none;
+	line-height: 20px;
 }
 
 .moduletable_hmenu.secondary a,
