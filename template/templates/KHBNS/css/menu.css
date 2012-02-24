@@ -50,6 +50,7 @@
 	padding-top: 11px; 
 	width: 163px;
 	position:absolute;
+	z-index: 1;
 }
 .module_hmenu.primary .menu > li:hover > div > ul {
 	background: url('../images/dropdownBottom.png') bottom center no-repeat; 
