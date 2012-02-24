@@ -22,7 +22,6 @@
 .module_hmenu.primary .menu > li > div > ul > li,
 .moduletable_hmenu.secondary .menu > li > div > ul > li {
 	list-style: none;
-	line-height: 20px;
 }
 
 /* header menu */
