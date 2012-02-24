@@ -150,3 +150,19 @@
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 100px; }
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 120px; }
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 140px; }
+
+.module_hmenu.primary .menu > li.outlineSocial {
+	display: none;
+}
+.moduletable_hmenu.secondary .menu > li.outlineSocial {
+	width: 27px;
+	position: absolute;
+	top: -5px;
+	right: 0;
+}
+
+.moduletable_hmenu.secondary .menu > li.outlineSocial ~ li.outlineSocial { top: 25px; }
+.moduletable_hmenu.secondary .menu > li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial { top: 55px; }
+.moduletable_hmenu.secondary .menu > li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial { top: 85px; }
+.moduletable_hmenu.secondary .menu > li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial { top: 115px; }
+.moduletable_hmenu.secondary .menu > li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial { top: 145px; }
