@@ -17,6 +17,7 @@
 	*display: inline;
 	*zoom: 1;
 	position: relative;
+	word-wrap: nowrap;
 }
 
 .module_hmenu.primary .menu > li > div > ul > li,
