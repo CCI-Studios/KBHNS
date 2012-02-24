@@ -10,7 +10,7 @@ set :repository,  "git@github.com:CCI-Studios/KBHNS.git"
 set :scm, :git
 
 # ssh settings
-set :user, "kbhns"
+set :user, "staging"
 set :use_sudo, false
 
 # Joomla
