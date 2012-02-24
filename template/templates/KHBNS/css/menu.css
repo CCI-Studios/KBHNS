@@ -30,13 +30,13 @@
 .module_hmenu.primary {
 	font-size: 12px;
 	float: right;
-	padding-top: 10px; /*TODO REMOVE padding-TOP*/
+	padding-top: 5px; /*TODO REMOVE padding-TOP*/
 	line-height: 12px;
 	text-transform: uppercase;
 }
 
 .module_hmenu.primary .menu > li {
-	padding: 21px 8px 10px;
+	padding: 24px 8px 10px;
 	color: #989898;
 }
 
