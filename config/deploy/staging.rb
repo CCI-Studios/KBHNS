@@ -2,7 +2,7 @@
 set :branch, "master"
 
 # This may be the same as your `Web` server
-role :app, "KBHNS.ccistaging.com"
+role :app, "kbhns.ccistaging.com"
 
 # directories
 set :deploy_to, "/home/staging/subdomains/kbhns"
