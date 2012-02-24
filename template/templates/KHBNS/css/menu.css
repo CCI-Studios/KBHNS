@@ -28,6 +28,7 @@
 /* header menu */
 
 .module_hmenu.primary {
+	font-size: 12px;
 	float: right;
 	padding-top: 10px; /*TODO REMOVE padding-TOP*/
 	line-height: 12px;
