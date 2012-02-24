@@ -9,14 +9,12 @@ body, select, input, textarea {
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { 
-	font-weight: normal; 
+	font-weight: lighter; 
 	font-size: 24px;
-	text-transform: uppercase;
-	color: #980153;
-	padding: 15px 0;
+	color: #b3b5b8;
+	padding: 0px 0 30px;
 	margin: 0;
 	display: inline-block;
-	font-family: Haettenschweiler; /*TODO REMOVE FONT AND REPLACE WITH BETTER*/
 }
 
 p {margin: 0;}
