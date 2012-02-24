@@ -78,6 +78,8 @@
 }
 
 .module_hmenu.primary .menu > li > div > ul > li a {
+	display: block;
+	line-height: 20px;
 	padding-left: 7px;
 	color: #989898;
 }
