@@ -137,10 +137,10 @@
 
 
 .moduletable_hmenu.secondary .menu > li.outline {
-	width: 115px;
+	width: 150px;
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 40px;
 }
 
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline { top: 20px; }
