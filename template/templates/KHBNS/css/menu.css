@@ -1,4 +1,5 @@
 .module_hmenu.primary .menu,
+.moduletable_hmenu.sidebar ul,
 .moduletable_hmenu.secondary .menu {
 	margin: 0;
 	padding: 0;
