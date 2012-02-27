@@ -11,7 +11,7 @@
 	height: 172px;
 	position: relative;
 }
-.home #header {background: #ffffff url('../images/bg_header.jpg') top center no-repeat; height: 395px;}
+.home #header {background: #ffffff url('../images/bg_header.jpg') bottom center no-repeat; height: 395px;}
 
 #body {
 	background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;
