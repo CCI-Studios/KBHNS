@@ -31,12 +31,11 @@
 	font-size: 12px;
 	float: right;
 	padding-top: 5px; /*TODO REMOVE padding-TOP*/
-	line-height: 12px;
 	text-transform: uppercase;
 }
 
 .module_hmenu.primary .menu > li {
-	padding: 24px 8px 10px;
+	padding: 24px 5px 10px;
 	color: #989898;
 }
 
@@ -82,8 +81,7 @@
 
 .module_hmenu.primary .menu > li > div > ul > li a {
 	display: block;
-	line-height: 20px;
-	padding-left: 7px;
+	padding: 4px 0 3px 7px;
 	color: #989898;
 }
 
@@ -119,17 +117,18 @@
 .moduletable_hmenu.sidebar .menu ul > li:first-child {border-top: 1px solid #d9d9d9;}
 .moduletable_hmenu.sidebar .menu ul > li {
 	border-bottom: 1px solid #d9d9d9;
-	line-height: 40px;
 }
 .moduletable_hmenu.sidebar .menu ul > li:hover {
 	background: url('../images/menu_hoverSidebar.png') right center no-repeat;
 }
 
-.moduletable_hmenu.sidebar .menu a, 
-.moduletable_hmenu.sidebar .menu a:hover {
+.moduletable_hmenu.sidebar .menu div a, 
+.moduletable_hmenu.sidebar .menu div a:hover {
 	color: #9a9a9a;
-	text-decoration: none;
+	display: block;
+	padding: 11px 43px 11px 0;
 }
+.moduletable_hmenu.sidebar a {text-decoration: none;}
 
 /* footer menu */
 
