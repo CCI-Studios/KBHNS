@@ -105,7 +105,7 @@
 .moduletable_hmenu.sidebar .menu > li.active {display: block;}
 .moduletable_hmenu.sidebar .menu > li.outline {display: none;}
 
-.moduletable_hmenu.sidebar .menu span.separator {
+.moduletable_hmenu.sidebar .menu li.parent > a {
 	font-size: 40px;
 	text-transform: uppercase;
 	color: #bcbdc0;	
