@@ -144,6 +144,7 @@
 .moduletable_hmenu.secondary .menu > li {
 	padding: 0 0 0 30px;
 	color: #ffffff;
+	vertical-align: top;
 }
 
 .moduletable_hmenu.secondary .menu > li:hover span {
