@@ -15,7 +15,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	display: inline-block;
 }
+
 #content h1 {padding-bottom: 16px;}
+#content p {line-height: 1.3em;}
 
 a, a:active, a:visited {
 	color: #B3B5B8;
