@@ -18,10 +18,10 @@ h1, h2, h3, h4, h5, h6 {
 #content h1 {padding-bottom: 16px;}
 
 a, a:active, a:visited {
-	color: #607890;
+	color: #B3B5B8;
 	text-decoration: none;
 }
 a:hover {
-	color: #036;
+	color: #980153;
 	text-decoration: underline;
 }
