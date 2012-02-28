@@ -16,8 +16,15 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 }
 
-#content h1 {padding-bottom: 16px;}
-#content p {line-height: 1.3em;}
+.item-page h1 {padding-bottom: 16px;}
+.item-page p {line-height: 1.3em;}
+.item-page > *:first-child {margin-top: 0;}
+
+.item-page ul,
+.item-page ol {
+    margin: 0em 0 1em 0;
+    padding: 0 0 0 15px;
+}
 
 a, a:active, a:visited {
 	color: #B3B5B8;
