@@ -53,7 +53,6 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 </head>
 
 <body class="<?= $menu ?>">
-	
 	<div id="header"><div class="container">
 		<jdoc:include type="modules" name="header" style="rounded" />
 		<div class="clear"></div>
@@ -64,19 +63,17 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<div id="top" class="tab-container">
 			<jdoc:include type="modules" name="top" style="xhtml" />
 		</div>
-	<div class="container">
-		<div id="sidebar">
-			<jdoc:include type="modules" name="sidebar" style="xhtml" />
-		</div>
-		<div id="content">
-			<jdoc:include type="component" />
-		</div>
-		<div id="bottom">
-			<jdoc:include type="modules" name="bottom" style="xhtml" />
-			<div class="clear"></div>
-		</div>
-		<div class="clear"></div>
-	</div></div>
+	<?php if ($menu !== 'home'): ?>
+		<div class="container">
+			<div id="sidebar">
+				<jdoc:include type="modules" name="sidebar" style="xhtml" />
+			</div>
+			<div id="content">
+				<jdoc:include type="component" />
+			</div>
+		<div class="clear"></div></div>
+	<?php endif; ?>
+	</div>
 
 	<div id="footer"><div class="container">
 		<jdoc:include type="modules" name="footer" style="xhtml" />
