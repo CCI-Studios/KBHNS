@@ -1,6 +1,5 @@
-.tab-container {
-	text-align: center;
-}
+.tab-container {text-align: center;}
+
 .tab-container .tabs {
 	list-style-type: none;
 	line-height: 44px;
@@ -29,9 +28,7 @@
 	letter-spacing: 1px;
 }
 
-.tab-container .tabs li:hover {
-	color: #980153;
-}
+.tab-container .tabs li:hover {color: #980153;}
 
 .tab-container .panel.active {
 	display: block;
@@ -56,39 +53,29 @@
 	background: url('../images/h3_aboutKBHNS.png') left center no-repeat;
 	padding-left: 60px;
 }
-.tab-container .tabs li.aboutKBHNS:hover {
-	background: url('../images/h3_aboutKBHNS-hover.png') left center no-repeat;
-}
 
-.tab-container .panel.aboutKBHNS {
-	background: url('../images/bg_aboutKBHNS.png') right top no-repeat;
-}
+.tab-container .tabs li.aboutKBHNS:hover {background: url('../images/h3_aboutKBHNS-hover.png') left center no-repeat;}
+
+.tab-container .panel.aboutKBHNS {background: url('../images/bg_aboutKBHNS.png') right top no-repeat;}
 
 /* careers */
 .tab-container .tabs li.careers {
 	background: url('../images/h3_careers.png') left center no-repeat;
 	padding-left: 70px;
 }
-.tab-container .tabs li.careers:hover {
-	background: url('../images/h3_careers-hover.png') left center no-repeat;
-}
+.tab-container .tabs li.careers:hover {background: url('../images/h3_careers-hover.png') left center no-repeat;}
 
-.tab-container .panel.careers {
-	background: url('../images/bg_careers.png') right top no-repeat;
-}
+.tab-container .panel.careers {background: url('../images/bg_careers.png') right top no-repeat;}
 
 /* in the community*/
 .tab-container .tabs li.community {
 	background: url('../images/h3_community.png') left center no-repeat;
 	padding-left: 72px;
 }
-.tab-container .tabs li.community:hover {
-	background: url('../images/h3_community-hover.png') left center no-repeat;
-}
 
-.tab-container .panel.community {
-	background: url('../images/bg_community.png') right top no-repeat;
-}
+.tab-container .tabs li.community:hover {background: url('../images/h3_community-hover.png') left center no-repeat;}
+
+.tab-container .panel.community {background: url('../images/bg_community.png') right top no-repeat;}
 
 /*top modules in slideshow*/
 
