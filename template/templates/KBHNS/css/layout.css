@@ -32,9 +32,10 @@
 
 #content {
 	float: left;
-	width: 710px;
 	margin-top: 8px;
 }
+.wide1 {width: 940px;}
+.wide2 {width: 710px;}
 
 #footer {
 	background: url('../images/bg_footerRepeat.png') top center repeat-x;
