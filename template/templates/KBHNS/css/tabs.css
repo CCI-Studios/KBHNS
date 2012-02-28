@@ -23,9 +23,10 @@
 	*zoom: 1;
 	color: #bcbdc0;
 	padding: 0px;
-	margin: 20px 0 20px 177px;
+	margin: 20px 0 20px 172px;
 	cursor: pointer;
 	line-height: 44px;
+	letter-spacing: 1px;
 }
 
 .tab-container .tabs li:hover {
