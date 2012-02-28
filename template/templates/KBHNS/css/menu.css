@@ -7,9 +7,7 @@
 }
 
 .module_hmenu.primary .menu > li:hover > div > ul,
-.moduletable_hmenu.seconary .menu > li:hover > div > ul {
-	display: block;
-}
+.moduletable_hmenu.seconary .menu > li:hover > div > ul {display: block;}
 
 .module_hmenu.primary .menu > li,
 .moduletable_hmenu.secondary .menu > li {
@@ -21,9 +19,7 @@
 }
 
 .module_hmenu.primary .menu > li > div > ul > li,
-.moduletable_hmenu.secondary .menu > li > div > ul > li {
-	list-style: none;
-}
+.moduletable_hmenu.secondary .menu > li > div > ul > li {list-style: none;}
 
 /* header menu */
 
@@ -75,9 +71,7 @@
 	left: 8px;
 }
 
-.module_hmenu.primary .menu > li > div > ul > li:hover {
-	background: #980153;
-}
+.module_hmenu.primary .menu > li > div > ul > li:hover {background: #980153;}
 
 .module_hmenu.primary .menu > li > div > ul > li a {
 	display: block;
@@ -85,9 +79,7 @@
 	color: #989898;
 }
 
-.module_hmenu.primary .menu > li > div > ul > li:hover a {
-	color: #ffffff;
-}
+.module_hmenu.primary .menu > li > div > ul > li:hover a {color: #ffffff;}
 
 /*this is for menu links that are not separators*/
 .module_hmenu.primary a {color: #989898;}
@@ -110,17 +102,13 @@
 	font-family: Haettenschweiler; /*TODO REMOVE FONT*/
 }
 
-.moduletable_hmenu.sidebar .menu ul {
-	margin-top: 30px;
-}
+.moduletable_hmenu.sidebar .menu ul {margin-top: 30px;}
 
 .moduletable_hmenu.sidebar .menu ul > li:first-child {border-top: 1px solid #d9d9d9;}
 .moduletable_hmenu.sidebar .menu ul > li {
 	border-bottom: 1px solid #d9d9d9;
 }
-.moduletable_hmenu.sidebar .menu ul > li:hover {
-	background: url('../images/menu_hoverSidebar.png') right center no-repeat;
-}
+.moduletable_hmenu.sidebar .menu ul > li:hover {background: url('../images/menu_hoverSidebar.png') right center no-repeat;}
 
 .moduletable_hmenu.sidebar .menu div a, 
 .moduletable_hmenu.sidebar .menu div a:hover {
@@ -146,14 +134,11 @@
 	vertical-align: top;
 }
 
-.moduletable_hmenu.secondary .menu > li:hover span {
-	text-shadow: 2px 1px 2px rgba(255, 255, 255, 1);
-}
+.moduletable_hmenu.secondary .menu > li:hover span {text-shadow: 2px 1px 2px rgba(255, 255, 255, 1);}
 
 .moduletable_hmenu.secondary .menu li > div > ul {
 	width: 100%;
 	padding: 0;
-
 }
 
 .moduletable_hmenu.secondary .menu > li > div > ul > li {
@@ -163,20 +148,16 @@
 
 .moduletable_hmenu.secondary .menu > li > a {font-weight: normal;}
 .moduletable_hmenu.secondary .menu > li > a:hover {text-decoration: none;}
+
 .moduletable_hmenu.secondary a,
 .moduletable_hmenu.secondary .menu > li > div > ul > li a {
-	color: #ffffff;
-}
-
-.moduletable_hmenu.secondary .menu > li > div > ul > li a:hover {
-	text-decoration: underline;
+	color: #ffffff; 
 	font-weight: lighter;
 }
 
 .module_hmenu .menu li.hidden { display: none; }
 .moduletable_hmenu.secondary li.hidden { display: inline-block; }
 .moduletable_hmenu.secondary li.hidden a { display: inline;}
-
 
 .moduletable_hmenu.secondary .menu > li.outline {
 	width: 150px;
