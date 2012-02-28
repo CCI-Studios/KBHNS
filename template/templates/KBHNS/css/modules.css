@@ -15,10 +15,11 @@
 .module.langSwitch > div {
 	position: absolute;
 	right: 85px;
-	width: 125px;
+	width: 105px;
 	background: #980153; /*TODO REMOVE*/
 	color: white; /*TODO REMOVE*/
 	font-weight: bold; /*TODO REMOVE*/
+	padding: 10px; /*TODO REMOVE*/
 }
 
 /* masthead */
