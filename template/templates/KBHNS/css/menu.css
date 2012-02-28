@@ -35,10 +35,7 @@
 	color: #989898;
 }
 
-.module_hmenu.primary .menu > li:hover {
-	background: url('../images/menu_hover.png') top center no-repeat;
-	color: #980153;
-}
+.module_hmenu.primary .menu > li:hover {background: url('../images/menu_hover.png') top center no-repeat;}
 
 /* background images for dropdown*/
 .module_hmenu.primary .menu > li:hover > div {
@@ -81,12 +78,27 @@
 
 .module_hmenu.primary .menu > li > div > ul > li:hover a {color: #ffffff;}
 
+.module_hmenu.primary .menu > li.contactUs {
+	position: absolute;
+	right: 0;
+	top: -50px;
+}
+.module_hmenu.primary .menu > li.contactUs:hover {background: none; text-decoration: underline;}
+
+.module_hmenu.primary .menu > li.outlineSocial {
+	width: 27px;
+	position: absolute;
+	top: -60px;
+	right: 210px;
+}
+.module_hmenu.primary .menu > li.outlineSocial ~ li.outlineSocial {right: 247px;}
+.module_hmenu.primary .menu > li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial {right: 284px;}
+.module_hmenu.primary .menu > li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial ~ li.outlineSocial {right: 321px;}
+.module_hmenu.primary .menu > li.outlineSocial:hover {background: none;}
+
 /*this is for menu links that are not separators*/
 .module_hmenu.primary a {color: #989898;}
-.module_hmenu.primary a:hover {
-	color: #980153;
-	text-decoration: none;
-}
+.module_hmenu.primary a:hover {text-decoration: none;}
 
 /* sidebar menu */
 
@@ -98,11 +110,11 @@
 .moduletable_hmenu.sidebar .menu li.parent > a {
 	font-size: 40px;
 	text-transform: uppercase;
-	color: #bcbdc0;	
+	color: #bcbdc0;
 	font-family: Haettenschweiler; /*TODO REMOVE FONT*/
 }
 
-.moduletable_hmenu.sidebar .menu ul {margin-top: 30px;}
+.moduletable_hmenu.sidebar .menu ul {margin-top: 24px;}
 
 .moduletable_hmenu.sidebar .menu ul > li:first-child {border-top: 1px solid #d9d9d9;}
 .moduletable_hmenu.sidebar .menu ul > li {
@@ -129,6 +141,7 @@
 
 .moduletable_hmenu.secondary .menu > li:first-child {padding: 0;}
 .moduletable_hmenu.secondary .menu > li {
+	padding: 0 0 0 46px;
 	color: #ffffff;
 	vertical-align: top;
 }
@@ -159,11 +172,13 @@
 .moduletable_hmenu.secondary li.hidden a { display: inline;}
 
 .moduletable_hmenu.secondary .menu > li.outline {
-	width: 150px;
+	width: 110px;
 	position: absolute;
 	top: 0;
-	right: 40px;
+	right: 60px;
 }
+
+.moduletable_hmenu.secondary .menu > li.outline a:hover {text-decoration: underline;}
 
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline { top: 20px; }
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline { top: 40px; }
@@ -173,9 +188,6 @@
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 120px; }
 .moduletable_hmenu.secondary .menu > li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline ~ li.outline { top: 140px; }
 
-.module_hmenu.primary .menu > li.outlineSocial {
-	display: none;
-}
 .moduletable_hmenu.secondary .menu > li.outlineSocial {
 	width: 27px;
 	position: absolute;
