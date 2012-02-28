@@ -7,11 +7,18 @@
 	float: left;
 }
 
-/* linkedIn link */
+/* language switcher*/
+.module.langSwitch {
+	position: relative;
+}
 
-.module.linkedIn {
-	float: right;
-	padding: 20px 120px 0 0; /*FIXME CHANGE PADDING LEFT TO 15px when dropdown module is put in*/ 
+.module.langSwitch > div {
+	position: absolute;
+	right: 85px;
+	width: 125px;
+	background: #980153; /*TODO REMOVE*/
+	color: white; /*TODO REMOVE*/
+	font-weight: bold; /*TODO REMOVE*/
 }
 
 /* masthead */
