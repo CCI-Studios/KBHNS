@@ -107,7 +107,6 @@
 .moduletable_hmenu.sidebar .menu li {list-style: none;}
 .moduletable_hmenu.sidebar .menu > li {display: none;}
 .moduletable_hmenu.sidebar .menu > li.active {display: block;}
-.moduletable_hmenu.sidebar .menu > li.outline {display: none;}
 
 .moduletable_hmenu.sidebar .menu li.parent > a {
 	font-size: 40px;
