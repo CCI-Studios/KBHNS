@@ -37,6 +37,8 @@
 
 .module_hmenu.primary .menu > li:hover {background: url('../images/menu_hover.png') top center no-repeat;}
 
+.module_hmenu.primary .menu > li:hover > a {color: #980153;}
+
 /* background images for dropdown*/
 .module_hmenu.primary .menu > li:hover > div {
 	background: url('../images/dropdownTop.png') left 1px no-repeat;
