@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	display: inline-block;
 }
+#content h1 {padding-bottom: 16px;}
 
 a, a:active, a:visited {
 	color: #607890;
