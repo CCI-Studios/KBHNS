@@ -161,6 +161,8 @@
 	line-height: 20px;
 }
 
+.moduletable_hmenu.secondary .menu > li > a {font-weight: normal;}
+.moduletable_hmenu.secondary .menu > li > a:hover {text-decoration: none;}
 .moduletable_hmenu.secondary a,
 .moduletable_hmenu.secondary .menu > li > div > ul > li a {
 	color: #ffffff;
@@ -168,6 +170,7 @@
 
 .moduletable_hmenu.secondary .menu > li > div > ul > li a:hover {
 	text-decoration: underline;
+	font-weight: lighter;
 }
 
 .module_hmenu .menu li.hidden { display: none; }
