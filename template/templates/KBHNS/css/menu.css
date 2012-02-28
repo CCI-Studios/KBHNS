@@ -108,11 +108,12 @@
 .moduletable_hmenu.sidebar .menu > li {display: none;}
 .moduletable_hmenu.sidebar .menu > li.active {display: block;}
 
-.moduletable_hmenu.sidebar .menu li.parent > a {
+.moduletable_hmenu.sidebar .menu > li > a {
 	font-size: 40px;
 	text-transform: uppercase;
 	color: #bcbdc0;
 	font-family: Haettenschweiler; /*TODO REMOVE FONT*/
+	cursor: default;
 }
 
 .moduletable_hmenu.sidebar .menu ul {margin-top: 24px;}
