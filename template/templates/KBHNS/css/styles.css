@@ -28,18 +28,4 @@ a.button_readmore {
 }
 a.button_readmore:hover {text-decoration: none;}
 
-.button_dropdown {
-	background: url('../images/button_dropdown.png') top center no-repeat;
-	font-size: 12px;
-	font-weight: bold;
-	text-transform: uppercase;
-	display: inline-block;
-	width: 108px;
-	height: 31px;
-	color: #989898;
-	line-height: 29px;
-	text-decoration: none;
-}
-.button_dropdown div {color: #989898; padding: 0 0 0 15px;}
-
 .noLink {cursor: default;}
