@@ -24,7 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 .item-page ol {
     margin: 0em 0 1em 0;
     padding: 0 0 0 15px;
+	color: #980153;
 }
+
+.item-page ul a {color: #980153;}
 
 a, a:active, a:visited {
 	color: #B3B5B8;
