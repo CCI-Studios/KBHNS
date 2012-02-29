@@ -11,12 +11,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: lighter; 
 	font-size: 24px;
 	color: #b3b5b8;
-	padding: 0px 0 30px;
 	margin: 0;
 	display: inline-block;
 }
 
-.item-page h1 {padding-bottom: 16px;}
+.item-page h2 {
+	font-size: 18px;
+	text-decoration: underline;
+	margin-bottom: 1em;
+}
+
+.item-page h1 {margin-bottom: 16px;}
 .item-page p {line-height: 1.3em;}
 .item-page > *:first-child {margin-top: 0;}
 
