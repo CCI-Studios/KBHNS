@@ -7,10 +7,14 @@
 <?php
 // get current menu name
 $menu = JSite::getMenu();
-if ($menu && $menu->getActive())
-    $menu = $menu->getActive()->alias;
-else
+if ($menu && $menu->getActive()) {
+    $menu = $menu->getActive();
+		$page_sfx = $menu->params->get('pageclass_sfx');
+  	$menu = $menu->alias;
+} else {
 	$menu = "";
+	$page_sfx = "";
+}
 
 if ($_SERVER['SERVER_PORT'] === 8888 ||
 		$_SERVER['SERVER_ADDR'] === '127.0.0.1' ||
@@ -24,6 +28,7 @@ if ($_SERVER['SERVER_PORT'] === 8888 ||
 	$testing = false;
 }
 
+JHtml::_('behavior.mootools');
 $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 ?>
 
@@ -65,7 +70,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 			<jdoc:include type="modules" name="top" style="xhtml" />
 		</div>
 		<?php endif; ?>
-	<?php if ($menu !== 'home'): ?>
+	<?php if ($page_sfx !== '_hidden'): ?>
 		<div class="container">
 			<div id="sidebar">
 				<jdoc:include type="modules" name="sidebar" style="xhtml" />
