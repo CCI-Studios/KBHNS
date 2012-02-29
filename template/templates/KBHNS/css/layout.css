@@ -11,7 +11,13 @@
 	height: 172px;
 	position: relative;
 }
-.home #header {background: #ffffff url('../images/bg_header.jpg') bottom center no-repeat; height: 395px;}
+.home #header,
+.home-english #header,
+.home-french #header {background: #ffffff url('../images/bg_header.jpg') bottom center no-repeat; height: 395px;}
+
+.home #body,
+.home-english #body,
+.home-french #body {background: #ffffff url('../images/bg_topTop.png') top center no-repeat;}
 
 #body {
 	background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;
