@@ -23,12 +23,9 @@
 	background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;
 	padding-bottom: 40px;
 }
-.home #body {background: #ffffff url('../images/bg_topTop.png') top center no-repeat;}
 #body .container {padding: 35px;}
 
-#top {
-	background: url('../images/bg_tabs.png') top center no-repeat;
-}
+#top {background: url('../images/bg_tabs.png') top center no-repeat;}
 
 #sidebar {
 	float: left;
@@ -59,6 +56,4 @@
 	color: #ffffff;
 }
 
-#copyright a {
-	color: #ffffff;
-}
+#copyright a {color: #ffffff;}
