@@ -9,20 +9,29 @@
 
 /* language switcher*/
 
-.module.langSwitch select {
-	width: 100px;
-	color: black;
-	background: white;
-}
-
-.module.langSwitch {
-	position: relative;
-}
-
+.module.langSwitch {position: relative;}
 .module.langSwitch > div {
 	position: absolute;
 	right: 95px;
-	top: 25px;
+	top: 20px;
+}
+
+.module.langSwitch form {
+	background: url('../images/button_dropDown.png') top center no-repeat;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 108px;
+	height: 31px;
+	line-height: 29px;
+	text-decoration: none;
+	overflow: hidden;
+}
+.module.langSwitch select {
+	font-size: 12px;
+	background: none;
+	border: none;
+	width: 126px;
+	padding: 8px 0 0 6px;
 }
 
 /* masthead */
