@@ -8,17 +8,21 @@
 }
 
 /* language switcher*/
+
+.module.langSwitch select {
+	width: 100px;
+	color: black;
+	background: white;
+}
+
 .module.langSwitch {
 	position: relative;
 }
 
 .module.langSwitch > div {
 	position: absolute;
-	right: 85px;
-	width: 105px;
-	color: white; /*TODO REMOVE*/
-	font-weight: bold; /*TODO REMOVE*/
-	padding: 10px; /*TODO REMOVE*/
+	right: 95px;
+	top: 25px;
 }
 
 /* masthead */
