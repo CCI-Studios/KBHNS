@@ -61,16 +61,19 @@
 
 .module.masthead p {margin: 0;}
 
-/* bottom modules */
-#bottom .moduletable:first-child {margin: 0;}
-#bottom .moduletable {
-	float: left;
-	border: 1px solid #cccccc;
-	padding: 0 20px 20px;
-	width: 410px;
-	margin: 0 0 0 36px;
+/*copyright and site by modules*/
+
+.moduletable.copyright {
+	padding: 12px 0 40px;
+	background: url('../images/divider_footer.png') top center no-repeat;
+	font-size: 10px;
+	color: #ffffff;
 }
 
-#bottom .moduletable p {
-	width: 230px;
+.moduletable.siteBy {
+	float: right;
+	font-size: 10px;
+	padding: 12px 0 40px;
 }
+
+.moduletable.siteBy a {color: #ffffff;}
