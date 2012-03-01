@@ -50,19 +50,19 @@ iframe {
 	border-radius: 3px;
 }
 
-dl {
+.item-page dl {
 	border: 1px solid #cccccc;
 	border-radius: 3px;
 }
 
-dt:first-child {border-top: none;}
-dt {
+.item-page dt:first-child {border-top: none;}
+.item-page dt {
 	padding: 5px 10px;
 	cursor: pointer;
 	border-top: 1px solid #c5c5c5;
 }
 
-dd {
+.item-page dd {
 	background: #980153;
 	color: #ffffff;
 	margin: 0;
