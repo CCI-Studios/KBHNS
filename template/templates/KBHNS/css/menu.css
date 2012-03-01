@@ -44,21 +44,21 @@
 	background: url('../images/dropdownTop.png') left 1px no-repeat;
 	height: 11px;
 	padding-top: 11px; 
-	width: 218px;
+	width: 216px;
 	position:absolute;
 	z-index: 1;
 }
 .module_hmenu.primary .menu > li:hover > div > ul {
 	background: url('../images/dropdownBottom.png') bottom center no-repeat; 
 	padding-bottom: 7px; 
-	width: 218px; 
+	width: 216px; 
 	position: absolute; 
 	top: 0; 
 	left: 0;
 }
 .module_hmenu.primary .menu > li:hover > div > ul > li {
 	background: url('../images/dropdownMiddle.png') center center repeat-y;
-	width: 218px;
+	width: 216px;
 }
 
 .module_hmenu.primary .menu > li > div > ul {
