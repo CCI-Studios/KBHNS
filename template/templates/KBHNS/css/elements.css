@@ -49,3 +49,22 @@ iframe {
 	border: 1px solid #cccccc;
 	border-radius: 3px;
 }
+
+dl {
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+
+dt:first-child {border-top: none;}
+dt {
+	padding: 5px 10px;
+	cursor: pointer;
+	border-top: 1px solid #c5c5c5;
+}
+
+dd {
+	background: #980153;
+	color: #ffffff;
+	margin: 0;
+	padding: 5px 10px;
+}
