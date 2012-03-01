@@ -15,13 +15,13 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 }
 
+.item-page h1 {margin-bottom: 16px;}
 .item-page h2 {
 	font-size: 18px;
 	text-decoration: underline;
 	margin-bottom: 1em;
 }
 
-.item-page h1 {margin-bottom: 16px;}
 .item-page p {line-height: 1.3em;}
 .item-page > *:first-child {margin-top: 0;}
 
@@ -55,16 +55,17 @@ iframe {
 	border-radius: 3px;
 }
 
-.item-page dt:first-child {border-top: none;}
+.item-page dt,
+.item-page dd {padding: 5px 10px;}
+
 .item-page dt {
-	padding: 5px 10px;
 	cursor: pointer;
 	border-top: 1px solid #c5c5c5;
 }
+.item-page dt:first-child {border-top: none;}
 
 .item-page dd {
 	background: #980153;
 	color: #ffffff;
 	margin: 0;
-	padding: 5px 10px;
 }

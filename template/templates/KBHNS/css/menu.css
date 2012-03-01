@@ -39,20 +39,20 @@
 
 .module_hmenu.primary .menu > li:hover > a {color: #980153;}
 
-/* background images for dropdown*/
+.module_hmenu.primary .menu > li:hover > div,
+.module_hmenu.primary .menu > li:hover > div > ul {
+	position: absolute; 
+	width: 216px;
+}
 .module_hmenu.primary .menu > li:hover > div {
 	background: url('../images/dropdownTop.png') left 1px no-repeat;
 	height: 11px;
 	padding-top: 11px; 
-	width: 216px;
-	position:absolute;
 	z-index: 1;
 }
 .module_hmenu.primary .menu > li:hover > div > ul {
 	background: url('../images/dropdownBottom.png') bottom center no-repeat; 
 	padding-bottom: 7px; 
-	width: 216px; 
-	position: absolute; 
 	top: 0; 
 	left: 0;
 }
