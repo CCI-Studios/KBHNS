@@ -30,14 +30,14 @@ a.button_readmore {
 	line-height: 29px;
 }
 
-input.button_readmore,
-a.button_readmore:hover {text-decoration: none;}
-
 input.button_readmore {
 	text-align: left;
 	line-height: 1em;
 	padding: 0 0 0 5px;
 	border: none;
 }
+
+input.button_readmore:hover,
+a.button_readmore:hover {text-decoration: none; color: #980153;}
 
 .noLink {cursor: default;}
