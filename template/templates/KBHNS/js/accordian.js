@@ -4,9 +4,9 @@
 		$(this).on('click', 'dt', function() {
 			$(this)
 				.next()
-					.slideDown(200)
+					.slideDown(300)
 					.siblings('dd')
-					.slideUp(200);
+					.slideUp(300);
 		});
 		$(this).find('dd').addClass('hidden');
 	});
