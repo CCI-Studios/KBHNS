@@ -3,8 +3,8 @@ body, select, input, textarea {
 	color: #b3b5b8; /* off black */
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	background: #7d0143;
 }
+body {background: #7d0143;}
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { 
