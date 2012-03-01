@@ -23,3 +23,19 @@ input:invalid, textarea:invalid {
 /* Make buttons play nice in IE:
    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button {  width: auto; overflow: visible; }
+
+.item-page form {
+	width: 300px;
+	float: left;
+	margin-right: 130px;
+}
+.ccms_form_element {padding: 0;}
+
+.ccms_form_element .cfdiv_submit input {
+	background: none;
+	border: none;
+}
+
+/* removes chronoform link */
+
+.chronoform {display: none;}
