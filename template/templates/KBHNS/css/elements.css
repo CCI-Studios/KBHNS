@@ -42,3 +42,10 @@ a:hover {
 	color: #980153;
 	text-decoration: underline;
 }
+
+.item-page img,
+iframe {
+	padding: 4px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
