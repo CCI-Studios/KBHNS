@@ -12,6 +12,7 @@
 ::-moz-selection{ background: #980153; color:#fff; text-shadow: none; }
 ::selection { background:#980153; color:#fff; text-shadow: none; }
 
+input.button_readmore,
 a.button_readmore {
 	background: url('../images/button_readMore.png') top center no-repeat;
 	color: #989898;
@@ -21,11 +22,22 @@ a.button_readmore {
 	display: inline-block;
 	width: 108px;
 	height: 31px;
-	color: #989898;
-	line-height: 29px;
-	padding: 0 0 0 20px;
-	margin-left: -7px;
 }
+
+a.button_readmore {
+ 	padding: 0 0 0 20px;
+	margin-left: -7px;
+	line-height: 29px;
+}
+
+input.button_readmore,
 a.button_readmore:hover {text-decoration: none;}
+
+input.button_readmore {
+	text-align: left;
+	line-height: 1em;
+	padding: 0 0 0 5px;
+	border: none;
+}
 
 .noLink {cursor: default;}
