@@ -111,7 +111,7 @@
 .moduletable_hmenu.sidebar .menu > li > a {
 	font-size: 40px;
 	text-transform: uppercase;
-	color: #bcbdc0;
+	color: #980153;
 	font-family: Haettenschweiler; /*TODO REMOVE FONT*/
 	cursor: default;
 }
@@ -130,6 +130,7 @@
 	display: block;
 	padding: 11px 43px 11px 0;
 }
+.moduletable_hmenu.sidebar .menu div a:hover {color: #980153;}
 .moduletable_hmenu.sidebar a {text-decoration: none;}
 
 /* footer menu */
