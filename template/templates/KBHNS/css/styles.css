@@ -40,7 +40,21 @@ input.button_readmore {
 input.button_readmore:hover,
 a.button_readmore:hover {text-decoration: none; color: #980153;}
 
-.noLink {cursor: default;}.p1 {
+.noLink {cursor: default;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+
 .p1 {
 	font-size: 14px;
 	font-weight: bold;
