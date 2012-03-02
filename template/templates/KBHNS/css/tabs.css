@@ -1,4 +1,9 @@
-.tab-container {text-align: center;}
+.tab-container { 
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	zoom: 1;
+}
 
 .tab-container .tabs {
 	list-style-type: none;
@@ -35,47 +40,53 @@
 	opacity: 1;
 }
 
+.tab-container > div {
+	position: relative;
+	left: 0;
+}
+
 .tab-container .panel {
-	display: none;
-	opacity: 0;
-	clear: both;
-	padding: 0px 400px 32px 0px;
+	float: left;
+	padding: 0px 390px 0px 20px;
 	margin: 35px auto 0px;
 	font-size: 14px;
-	height: 190px;
 	text-align: left;
-	width: 540px;
+	width: 530px;
 	line-height: 24px;
 }
 
+.tab-container .panel p {
+	margin: 0;
+}
+
 /* aboutKBHNS */
+.tab-container .tabs li {
+	background: left center no-repeat;
+}
+
 .tab-container .tabs li.aboutKBHNS {
-	background: url('../images/h3_aboutKBHNS.png') left center no-repeat;
+	background-image: url('../images/h3_aboutKBHNS.png');
 	padding-left: 60px;
 }
+.tab-container .tabs li.aboutKBHNS:hover { background-image: url('../images/h3_aboutKBHNS-hover.png'); }
 
-.tab-container .tabs li.aboutKBHNS:hover {background: url('../images/h3_aboutKBHNS-hover.png') left center no-repeat;}
-
-.tab-container .panel.aboutKBHNS {background: url('../images/bg_aboutKBHNS.png') right top no-repeat;}
-
-/* careers */
 .tab-container .tabs li.careers {
-	background: url('../images/h3_careers.png') left center no-repeat;
+	background-image: url('../images/h3_careers.png');
 	padding-left: 70px;
 }
-.tab-container .tabs li.careers:hover {background: url('../images/h3_careers-hover.png') left center no-repeat;}
+.tab-container .tabs li.careers:hover { background-image: url('../images/h3_careers-hover.png'); }
 
-.tab-container .panel.careers {background: url('../images/bg_careers.png') right top no-repeat;}
-
-/* in the community*/
 .tab-container .tabs li.community {
 	background: url('../images/h3_community.png') left center no-repeat;
 	padding-left: 72px;
 }
+.tab-container .tabs li.community:hover { background-image: url('../images/h3_community-hover.png'); }
 
-.tab-container .tabs li.community:hover {background: url('../images/h3_community-hover.png') left center no-repeat;}
 
-.tab-container .panel.community {background: url('../images/bg_community.png') right top no-repeat;}
+.tab-container .panel { background: 95% top no-repeat; }
+.tab-container .panel.aboutKBHNS { background-image: url('../images/bg_aboutKBHNS.png'); }
+.tab-container .panel.careers { background-image: url('../images/bg_careers.png'); }
+.tab-container .panel.community { background-image: url('../images/bg_community.png'); }
 
 /*top modules in slideshow*/
 
