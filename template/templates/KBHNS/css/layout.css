@@ -20,9 +20,7 @@
 .home-french #body {background: #ffffff url('../images/bg_topTop.png') top center no-repeat;}
 
 #body {
-	background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;
-	padding-bottom: 40px;
-}
+	background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;}
 #body .container {padding: 35px;}
 
 #top {background: url('../images/bg_tabs.png') top center no-repeat;}
