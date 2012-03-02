@@ -3,9 +3,10 @@ window.addEvent('domready', function () {
 		$nav = new Element('ul', {
 			'class': 'tabs'
 		});
-		$panels = new Element('div');
+		$panels = new Element('div', { 'class': 'clearfix' });
 		$modules = container.getElements('.moduletable').dispose();
 
+		// grab all h3s, add to nav bar
 		$modules.getElements('> h3').each(function (h3) {
 			(new Element('li', {
 				text: h3.get('html'),
@@ -15,6 +16,7 @@ window.addEvent('domready', function () {
 		});
 		$nav.getElement('li').addClass('active');
 
+		// grab all content, add to panels
 		$modules.getElements('> div').each(function (content) {
 			(new Element('div', {
 				html: content.get('html'),
@@ -22,6 +24,8 @@ window.addEvent('domready', function () {
 			})).inject($panels);
 		});
 		$panels.getElement('div').addClass('active');
+		$panels.setStyle('width', $panels.getChildren().length*100 + '%');
+		$panels.get('tween').options.unit = '%';
 
 		$nav.getElements('li').addEvent('click', function (event) {
 			menu = $nav.getElements('li');
@@ -29,9 +33,7 @@ window.addEvent('domready', function () {
 			event.target.addClass('active');
 			index = menu.indexOf(event.target);
 
-			contents = $panels.getElements('> div');
-			contents.removeClass('active');
-			contents[index].addClass('active');
+			$panels.tween('left', -100*index);
 		});
 
 		$nav.inject(container);
