@@ -40,4 +40,14 @@ input.button_readmore {
 input.button_readmore:hover,
 a.button_readmore:hover {text-decoration: none; color: #980153;}
 
-.noLink {cursor: default;}
+.noLink {cursor: default;}.p1 {
+.p1 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 6px 0 9px;
+	display: block;
+}
+
+p.p1,
+p.p1 a {width: 300px;}
+p.p1 a {color: #980153;}
