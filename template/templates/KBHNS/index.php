@@ -65,9 +65,9 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	
 	<div id="body">
 		<?php if ($this->countModules('top')): ?>
-		<div id="top" class="tab-container">
+		<div id="top"><div class="tab-container">
 			<jdoc:include type="modules" name="top" style="xhtml" />
-		</div>
+		</div></div>
 		<?php endif; ?>
 	<?php if ($page_sfx !== '_hidden'): ?>
 		<div class="container">
