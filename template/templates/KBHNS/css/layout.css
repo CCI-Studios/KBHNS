@@ -23,7 +23,11 @@
 	background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;}
 #body .container {padding: 35px;}
 
-#top {background: url('../images/bg_tabs.png') top center no-repeat;}
+#top { background: url('../images/bg_tabs.png') top center no-repeat;}
+#top > div { 
+	width: 940px; 
+	margin: 0 auto;
+}
 
 #sidebar {
 	float: left;
