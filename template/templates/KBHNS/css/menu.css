@@ -6,8 +6,8 @@
 	position: relative;
 }
 
-.module_hmenu.primary .menu > li:hover > div > ul,
-.moduletable_hmenu.seconary .menu > li:hover > div > ul {display: block;}
+.module_hmenu.primary li:hover ul,
+.moduletable_hmenu.seconary li:hover ul {display: block;}
 
 .module_hmenu.primary .menu > li,
 .moduletable_hmenu.secondary .menu > li {
@@ -18,8 +18,8 @@
 	word-wrap: nowrap;
 }
 
-.module_hmenu.primary .menu > li > div > ul > li,
-.moduletable_hmenu.secondary .menu > li > div > ul > li {list-style: none;}
+.module_hmenu.primary li li,
+.moduletable_hmenu.secondary li li {list-style: none;}
 
 /* header menu */
 
@@ -39,29 +39,29 @@
 
 .module_hmenu.primary .menu > li:hover > a {color: #980153;}
 
-.module_hmenu.primary .menu > li:hover > div,
-.module_hmenu.primary .menu > li:hover > div > ul {
+.module_hmenu.primary li:hover div,
+.module_hmenu.primary li:hover ul {
 	position: absolute; 
 	width: 216px;
 }
-.module_hmenu.primary .menu > li:hover > div {
+.module_hmenu.primary li:hover div {
 	background: url('../images/dropdownTop.png') left 1px no-repeat;
 	height: 11px;
 	padding-top: 11px; 
 	z-index: 1;
 }
-.module_hmenu.primary .menu > li:hover > div > ul {
+.module_hmenu.primary li:hover ul {
 	background: url('../images/dropdownBottom.png') bottom center no-repeat; 
 	padding-bottom: 7px; 
 	top: 0; 
 	left: 0;
 }
-.module_hmenu.primary .menu > li:hover > div > ul > li {
+.module_hmenu.primary li:hover li {
 	background: url('../images/dropdownMiddle.png') center center repeat-y;
 	width: 216px;
 }
 
-.module_hmenu.primary .menu > li > div > ul {
+.module_hmenu.primary .menu ul {
 	display: none;
 	padding: 0;
 	background: #ffffff;
@@ -70,15 +70,15 @@
 	left: 8px;
 }
 
-.module_hmenu.primary .menu > li > div > ul > li:hover {background: #980153;}
+.module_hmenu.primary li li:hover {background: #980153;}
 
-.module_hmenu.primary .menu > li > div > ul > li a {
+.module_hmenu.primary li li a {
 	display: block;
 	padding: 4px 0 3px 7px;
 	color: #989898;
 }
 
-.module_hmenu.primary .menu > li > div > ul > li:hover a {color: #ffffff;}
+.module_hmenu.primary li li:hover a {color: #ffffff;}
 
 .module_hmenu.primary .menu > li.contactUs {
 	position: absolute;
@@ -118,11 +118,11 @@
 
 .moduletable_hmenu.sidebar .menu ul {margin-top: 24px;}
 
-.moduletable_hmenu.sidebar .menu ul > li:first-child {border-top: 1px solid #d9d9d9;}
-.moduletable_hmenu.sidebar .menu ul > li {
+.moduletable_hmenu.sidebar .menu ul li:first-child {border-top: 1px solid #d9d9d9;}
+.moduletable_hmenu.sidebar .menu ul li {
 	border-bottom: 1px solid #d9d9d9;
 }
-.moduletable_hmenu.sidebar .menu ul > li:hover {background: url('../images/menu_hoverSidebar.png') right center no-repeat;}
+.moduletable_hmenu.sidebar .menu ul li:hover {background: url('../images/menu_hoverSidebar.png') right center no-repeat;}
 
 .moduletable_hmenu.sidebar .menu div a, 
 .moduletable_hmenu.sidebar .menu div a:hover {
@@ -148,14 +148,12 @@
 	vertical-align: top;
 }
 
-.moduletable_hmenu.secondary .menu > li:hover span {text-shadow: 2px 1px 2px rgba(255, 255, 255, 1);}
-
-.moduletable_hmenu.secondary .menu li > div > ul {
+.moduletable_hmenu.secondary .menu ul {
 	width: 100%;
 	padding: 0;
 }
 
-.moduletable_hmenu.secondary .menu > li > div > ul > li {
+.moduletable_hmenu.secondary li li {
 	text-transform: none;
 	line-height: 20px;
 }
@@ -164,7 +162,7 @@
 .moduletable_hmenu.secondary .menu > li > a:hover {text-decoration: none;}
 
 .moduletable_hmenu.secondary a,
-.moduletable_hmenu.secondary .menu > li > div > ul > li a {
+.moduletable_hmenu.secondary li li a {
 	color: #ffffff; 
 	font-weight: lighter;
 }
