@@ -31,7 +31,6 @@ if ($_SERVER['SERVER_PORT'] === 8888 ||
 JHtml::_('behavior.mootools');
 $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 ?>
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <head>
 	<meta charset="utf-8" />
 	<?= ($testing)? '':  '<meta http-equiv="X-UA-Compatible" contents="IE=edge,chrome=1">' ?>
