@@ -39,36 +39,34 @@
 
 .module_hmenu.primary .menu > li:hover > a {color: #980153;}
 
-.module_hmenu.primary li:hover div,
-.module_hmenu.primary li:hover ul {
-	position: absolute; 
+.module_hmenu.primary li div,
+.module_hmenu.primary li ul {
 	width: 216px;
 }
-.module_hmenu.primary li:hover div {
+.module_hmenu.primary li div {
+	display: none;
+	position: absolute;
 	background: url('../images/dropdownTop.png') left 1px no-repeat;
-	height: 11px;
 	padding-top: 11px; 
 	z-index: 1;
+	left: 0px;
+	top: 100%;
 }
-.module_hmenu.primary li:hover ul {
+.module_hmenu.primary li ul {
 	background: url('../images/dropdownBottom.png') bottom center no-repeat; 
-	padding-bottom: 7px; 
+	padding-bottom: 7px;
+	margin: 0;
 	top: 0; 
 	left: 0;
 }
-.module_hmenu.primary li:hover li {
+.module_hmenu.primary li li {
 	background: url('../images/dropdownMiddle.png') center center repeat-y;
 	width: 216px;
 }
 
-.module_hmenu.primary .menu ul {
-	display: none;
-	padding: 0;
-	background: #ffffff;
-	position: absolute;
-	top: 31px;
-	left: 8px;
-}
+.module_hmenu.primary li:hover div {display: block;}
+
+.module_hmenu.primary .menu ul {padding-left: 0;}
 
 .module_hmenu.primary li li:hover {background: #980153;}
 
