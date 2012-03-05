@@ -49,7 +49,7 @@
 	background: url('../images/dropdownTop.png') left 1px no-repeat;
 	padding-top: 11px; 
 	z-index: 1;
-	left: 0px;
+	left: 5px;
 	top: 100%;
 }
 .module_hmenu.primary li ul {
