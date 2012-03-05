@@ -33,7 +33,7 @@
 }
 
 .module.langSwitch .lang-block li {
-	line-height: 34px;
+	line-height: 32px;
 	display: block;
 }
 .module.langSwitch .lang-block li { display: none; }
@@ -41,11 +41,11 @@
 
 
 .module.langSwitch .lang-block:hover {
-	padding-top: 7px;
+	padding-top: 5px;
 }
 
 .module.langSwitch .lang-block:hover li {
-	line-height: 20px;
+	line-height: 23px;
 	display: block;
 }
 
