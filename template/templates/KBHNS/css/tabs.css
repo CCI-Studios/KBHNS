@@ -46,14 +46,19 @@
 }
 
 .tab-container .panel {
+	background: 95% top no-repeat;
 	float: left;
-	padding: 0px 390px 0px 20px;
+	padding: 0px 390px 20px 20px;
 	margin: 35px auto 0px;
 	font-size: 14px;
 	text-align: left;
 	width: 530px;
 	line-height: 24px;
 }
+
+.tab-container .panel.aboutKBHNS { background-image: url('../images/bg_aboutKBHNS.png'); }
+.tab-container .panel.careers { background-image: url('../images/bg_careers.png'); }
+.tab-container .panel.community { background-image: url('../images/bg_community.png'); }
 
 .tab-container .panel p {
 	margin: 0;
@@ -81,12 +86,6 @@
 	padding-left: 72px;
 }
 .tab-container .tabs li.community:hover { background-image: url('../images/h3_community-hover.png'); }
-
-
-.tab-container .panel { background: 95% top no-repeat; }
-.tab-container .panel.aboutKBHNS { background-image: url('../images/bg_aboutKBHNS.png'); }
-.tab-container .panel.careers { background-image: url('../images/bg_careers.png'); }
-.tab-container .panel.community { background-image: url('../images/bg_community.png'); }
 
 /*top modules in slideshow*/
 
