@@ -68,7 +68,8 @@ a.button_readmore:hover {text-decoration: none; color: #980153;}
 
 p.p1,
 p.p1 a {width: 300px;}
-p.p1 a {color: #980153;}.arrow {
+p.p1 a {color: #980153;}
+
 .arrow {
 	background: url('../images/directoryArrow.png') left 60% no-repeat;
 	padding-left: 9px;
