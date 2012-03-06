@@ -18,7 +18,7 @@
 .tab-container .tabs li:first-child {margin-left: 0;}
 .tab-container .tabs li {
 	float: left;
-	font-family: Haettenschweiler; /*TODO REMOVE FONT AND REPLACE WITH BETTER*/
+	font-family: "alternate-gothic-no-1-d"; 
 	font-weight: normal; 
 	font-size: 24px;
 	text-transform: uppercase;
