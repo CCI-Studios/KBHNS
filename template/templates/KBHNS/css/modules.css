@@ -67,7 +67,7 @@
 }
 
 .module.masthead h3 {
-	font-family: Haettenschweiler;
+	font-family: "alternate-gothic-no-1-d";
 	font-size: 40px;
 	line-height: 40px;
 	padding: 5px 0;
@@ -88,7 +88,6 @@
 .moduletable.siteBy {
 	float: right;
 	font-size: 10px;
-	padding: 12px 0 40px;
 }
 
 .moduletable.siteBy a {color: #ffffff;}
