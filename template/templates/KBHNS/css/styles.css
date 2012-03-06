@@ -61,6 +61,10 @@ a.button_readmore:hover {text-decoration: none; color: #980153;}
 	margin: 6px 0 9px;
 	display: block;
 }
+.notre-equipe-de-direction p,
+.notre-equipe-de-direction h2,
+.our-leadership p,
+.our-leadership h2 {clear: both;}
 
 p.p1,
 p.p1 a {width: 300px;}
