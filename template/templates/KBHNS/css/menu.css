@@ -41,9 +41,8 @@
 .module_hmenu.primary .menu > li:hover > span {color: #980153;}
 
 .module_hmenu.primary li div,
-.module_hmenu.primary li ul {
-	width: 216px;
-}
+.module_hmenu.primary li ul {width: 216px;}
+
 .module_hmenu.primary li div {
 	display: none;
 	position: absolute;
@@ -53,6 +52,7 @@
 	left: 5px;
 	top: 100%;
 }
+
 .module_hmenu.primary li ul {
 	background: url('../images/dropdownBottom.png') bottom center no-repeat; 
 	padding-bottom: 7px;
@@ -60,6 +60,7 @@
 	top: 0; 
 	left: 0;
 }
+
 .module_hmenu.primary li li {
 	background: url('../images/dropdownMiddle.png') center center repeat-y;
 	width: 216px;
