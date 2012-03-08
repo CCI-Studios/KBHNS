@@ -52,8 +52,8 @@
 	left: 5px;
 	top: 100%;
 }
-.module_hmenu.primary li.last div {
-	background: url('../images/dropdownTopLast.png') left 1px no-repeat;
+.module_hmenu.primary li.last > div {
+	background: url('../images/dropdownTopLast.png') -1px -1px no-repeat;
 	left: -150px;
 }
 
