@@ -27,7 +27,7 @@
 
 #body {
 	background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;}
-#body .container {padding: 35px;}
+#body .container {padding: 35px 0;}
 
 #top { background: url('../images/bg_tabs.png') top center no-repeat;}
 #top > div { 
