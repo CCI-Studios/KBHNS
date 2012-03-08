@@ -67,7 +67,7 @@
 }
 
 .module.masthead h3 {
-	font-family: "alternate-gothic-no-1-d";
+	font-family: "alternate-gothic-no-1-d", Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	line-height: 40px;
 	padding: 5px 0;
