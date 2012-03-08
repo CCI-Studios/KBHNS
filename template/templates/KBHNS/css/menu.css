@@ -119,7 +119,7 @@
 	font-family: "alternate-gothic-no-1-d", Helvetica, Arial, sans-serif;
 }
 
-.moduletable_hmenu.sidebar .menu ul {margin-top: 24px;}
+.moduletable_hmenu.sidebar .menu div {margin-top: 24px;}
 
 .moduletable_hmenu.sidebar .menu ul li:first-child {border-top: 1px solid #d9d9d9;}
 .moduletable_hmenu.sidebar .menu ul li {
