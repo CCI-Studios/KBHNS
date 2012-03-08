@@ -79,7 +79,10 @@
 	color: #ffffff;
 }
 
-.module.masthead p {margin: 0;}
+.module.masthead p {
+	text-shadow: 2px 2px 4px #000;
+	margin: 0;
+}
 
 /*copyright and site by modules*/
 
