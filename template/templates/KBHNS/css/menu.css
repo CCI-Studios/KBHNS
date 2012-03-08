@@ -109,10 +109,10 @@
 .moduletable_hmenu.sidebar .menu > li > span,
 .moduletable_hmenu.sidebar .menu > li > a {
 	font-size: 40px;
+	line-height: 40px;
 	text-transform: uppercase;
 	color: #980153;
-	font-family: "alternate-gothic-no-1-d";
-	cursor: default;
+	font-family: "alternate-gothic-no-1-d", Helvetica, Arial, sans-serif;
 }
 
 .moduletable_hmenu.sidebar .menu ul {margin-top: 24px;}
