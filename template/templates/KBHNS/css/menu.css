@@ -46,7 +46,7 @@
 .module_hmenu.primary li div {
 	display: none;
 	position: absolute;
-	background: url('../images/dropdownTop.png') left 1px no-repeat;
+	background: url('../images/dropdownTop.png') -1px -1px no-repeat;
 	padding-top: 11px; 
 	z-index: 1;
 	left: 5px;
