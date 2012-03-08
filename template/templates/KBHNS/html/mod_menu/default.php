@@ -21,6 +21,16 @@ defined('_JEXEC') or die;
 	}
 ?>>
 <?php
+
+$last_level_one_id = 0;
+for($j=count($list)-1; $j>0; $j--){
+  if($list[$j]->level == 1){
+    $last_level_one_id = $list[$j]->id;
+    break;
+  }
+}
+$first_start = true;
+
 foreach ($list as $i => &$item) :
 	$class = 'item-'.$item->id;
 	if ($item->id == $active_id) {
@@ -32,17 +42,31 @@ foreach ($list as $i => &$item) :
 		||	in_array($item->id, $path)) {
 		$class .= ' active';
 	}
+	
+	if ($first_start) {
+		$class .= ' first';
+		$first_start = false;
+	}
 
 	if ($item->deeper) {
 		$class .= ' deeper';
+		$first_start = true;
+	}
+	
+	if ($item->shallower || $item->id == $last_level_one_id) {
+		$class .= ' last';
 	}
 
 	if ($item->parent) {
 		$class .= ' parent';
 	}
+	
+	if ($item->anchor_css) {
+		$class .= ' '. $item->anchor_css;
+	}
 
 	if (!empty($class)) {
-		$class = ' class="'.trim($class) .' '. $item->anchor_css .'"';
+		$class = ' class="'.trim($class) .'"';
 	}
 
 	echo '<li'.$class.'>';
