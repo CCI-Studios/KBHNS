@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 .item-page a:visited {color: #980153; text-decoration: none;}
 
 a, a:active, a:visited {
-	color: #B3B5B8;
+	color: #999;
 	text-decoration: none;
 }
 a:hover {
