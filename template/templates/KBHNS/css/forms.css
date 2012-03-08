@@ -29,7 +29,7 @@ button {  width: auto; overflow: visible; }
 	float: left;
 	margin-right: 130px;
 }
-.ccms_form_element {padding: 0;}
+.ccms_form_element {padding: 0; position: static;}
 
 .ccms_form_element .cfdiv_submit input {
 	background: none;
