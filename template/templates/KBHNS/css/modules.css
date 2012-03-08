@@ -49,6 +49,12 @@
 	display: block;
 }
 
+/* logo in header */
+.module.logo {
+	padding-top: 33px;
+	float: left;
+}
+
 /* masthead */
 
 .module.masthead {
