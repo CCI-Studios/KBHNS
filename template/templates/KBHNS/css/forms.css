@@ -29,6 +29,9 @@ button {  width: auto; overflow: visible; }
 	float: left;
 	margin-right: 130px;
 }
+
+.item-page form option {color: #444;}
+
 .ccms_form_element {padding: 0; position: static;}
 
 .ccms_form_element .cfdiv_submit input {
