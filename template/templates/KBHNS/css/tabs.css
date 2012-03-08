@@ -18,19 +18,18 @@
 .tab-container .tabs li:first-child {margin-left: 0;}
 .tab-container .tabs li {
 	float: left;
-	font-family: "alternate-gothic-no-1-d"; 
+	font-family: "alternate-gothic-no-1-d", Helvetica, Arial, sans-serif; 
 	font-weight: normal; 
-	font-size: 24px;
+	font-size: 28px;
 	text-transform: uppercase;
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 	color: #bcbdc0;
-	padding: 0px;
+	padding: 10px 0 5px 0;
 	margin: 20px 0 20px 172px;
 	cursor: pointer;
-	line-height: 44px;
-	letter-spacing: 1px;
+	line-height: 32px;
 }
 
 .tab-container .tabs li:hover {color: #980153;}
