@@ -20,33 +20,7 @@
 	background: url('../images/button_dropDown.png') left no-repeat;
 }
 
-.moduletable.langSwitch .lang-block {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
 
-.moduletable.langSwitch .lang-block li {
-	line-height: 32px;
-	display: block;
-}
-.moduletable.langSwitch .lang-block li { display: none; }
-.moduletable.langSwitch .lang-block li.lang-active { display: block; }
-
-
-.moduletable.langSwitch .lang-block:hover {
-	padding-top: 5px;
-}
-
-.moduletable.langSwitch .lang-block:hover li {
-	line-height: 23px;
-	display: block;
-}
 
 /* logo in header */
 .module.logo {
