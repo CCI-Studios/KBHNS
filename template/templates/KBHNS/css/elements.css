@@ -7,7 +7,7 @@ body, select, input, textarea {
 body {background: #7d0143;}
 
 .cfdiv_select select, 
-.cfdiv_text label {width: auto;}
+.cfdiv_text label {width: 360px;}
 .ccms_form_element label {width: 180px;}
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
