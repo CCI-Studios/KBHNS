@@ -31,8 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 .item-page ul,
 .item-page ol {
     margin: 0em 0 1em 0;
-	color: #980153;
 }
+
+.item-page ul li a,
+.item-page ol li a {color: #999 !important;}
+.item-page ul li a:hover,
+.item-page ol li a:hover {color: #980153 !important; text-decoration: none !important;}
 
 .item-page a,
 .item-page a:visited {color: #980153; text-decoration: none;}
