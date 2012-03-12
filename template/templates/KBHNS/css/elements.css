@@ -69,3 +69,25 @@ iframe {
 .item-page dd {
 	margin: 0 0 5px 0;
 }
+
+/*our leadership page style*/
+
+.notre-equipe-de-direction p,
+.our-leadership p {	margin-bottom: 30px;}
+
+.notre-equipe-de-direction h2,
+.notre-equipe-de-direction h2 a,
+.our-leadership h2 ,
+.our-leadership h2 a {clear: both; color: #999;}
+
+/*contact header style*/
+
+.p1 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 6px 0 9px;
+	display: block;
+}
+p.p1,
+p.p1 a {width: 360px;}
+p.p1 a {color: #980153;}
