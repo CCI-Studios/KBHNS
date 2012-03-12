@@ -55,21 +55,6 @@ a.button_readmore:hover {text-decoration: none; color: #980153;}
 	display: inline-block;
 }
 
-.p1 {
-	font-size: 14px;
-	font-weight: bold;
-	margin: 6px 0 9px;
-	display: block;
-}
-.notre-equipe-de-direction p,
-.notre-equipe-de-direction h2,
-.our-leadership p,
-.our-leadership h2 {clear: both;}
-
-p.p1,
-p.p1 a {width: 300px;}
-p.p1 a {color: #980153;}
-
 .arrow {
 	background: url('../images/directoryArrow.png') left 60% no-repeat;
 	padding-left: 9px;
