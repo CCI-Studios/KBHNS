@@ -110,8 +110,9 @@
 
 .module_hmenu.primary a:hover {text-decoration: none;}
 
-/* sidebar menu */
+/* sidebar menu (main sidebar menu + partners menu)*/
 
+.moduletable.partners li,
 .moduletable_hmenu.sidebar .menu li {list-style: none;}
 .moduletable_hmenu.sidebar .menu > li {display: none;}
 .moduletable_hmenu.sidebar .menu > li.active {display: block;}
