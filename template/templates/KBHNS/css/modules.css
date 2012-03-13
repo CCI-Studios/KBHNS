@@ -20,7 +20,11 @@
 	background: url('../images/button_langSwitch.png') left no-repeat;
 }
 
-.moduletable.langSwitch ul {padding: 10px 7px 0;}
+div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *zoom: 1;}
+.moduletable.langSwitch li {
+	padding: 10px 9px 0;
+	margin: 0;
+}
 
 .moduletable.langSwitch li.lang-active a {color: #980153;}
 
