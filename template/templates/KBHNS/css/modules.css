@@ -2,12 +2,11 @@
 	text-transform: uppercase;
 	font-size: 12px;
 	float:right;
-	margin: 20px 6px 0;
+	margin: 20px 0 0 12px;
 }
 
 /* contact mod */
-
-.moduletable.contact {padding-top: 10px;}
+.moduletable.contact { padding-top: 10px; }
 
 /* language switcher*/
 
