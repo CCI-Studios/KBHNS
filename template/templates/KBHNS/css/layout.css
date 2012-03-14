@@ -13,17 +13,18 @@
 }
 .home #header,
 .home-english #header,
-.home-french #header {background: #ffffff url('../images/bg_header.jpg') bottom center no-repeat; height: 395px;}
+.home-french #header { background: #ffffff url('../images/bg_header.jpg') bottom center no-repeat; height: 395px; }
+#header > .container { position: relative; }
+
+#headerTop {
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
 
 .home #body,
 .home-english #body,
 .home-french #body {background: #ffffff url('../images/bg_topTop.png') top center no-repeat;}
-
-#headerTop {
-	position: absolute;
-	width: 940px;
-	margin: 0 auto;
-}
 
 #body {background: #ffffff url('../images/bg_bodyInnerRepeat.png') top center repeat-x;}
 #body .container {padding: 35px 0;}
