@@ -59,4 +59,6 @@ a.button_readmore:hover {text-decoration: none; color: #980153;}
 	background: url('../images/directoryArrow.png') left 60% no-repeat;
 	padding-left: 9px;
 	margin-left: 10px;
+	position: relative;
+	*zoom: 1;
 }
