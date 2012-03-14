@@ -59,13 +59,16 @@ $analytics = "UA-29722883-1";
 </head>
 
 <body class="<?= $menu ?>">
-	<div id="header"><div class="container">
-		<jdoc:include type="modules" name="header" style="rounded" />
-		<div id="headerTop">
-			<jdoc:include type="modules" name="headerTop" style="xhtml" />
-		</div>
-		<div class="clear"></div>
-	</div></div>
+	<div id="header">
+			<div class="container">
+				<jdoc:include type="modules" name="header" style="rounded" />
+				<div id="headerTop"><jdoc:include type="modules" name="headerTop" style="xhtml" /></div>
+				<div class="clear"></div>
+			</div>
+			
+			<jdoc:include type="modules" name="banner" style="rounded" />
+			<div class="clear"></div>
+	</div>
 	<div class="clear"></div>
 	
 	<div id="body">
