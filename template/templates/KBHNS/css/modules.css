@@ -19,9 +19,12 @@
 	background: url('../images/button_langSwitch.png') left no-repeat;
 }
 
+div.mod-languages ul {padding-top: 10px;}
+.ie7 div.mod-languages ul, .ie8 div.mod-languages ul {padding-top: 8px;} /*moves up language links in ie7&8*/
+
 div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *zoom: 1;}
 .moduletable.langSwitch li {
-	padding: 10px 9px 0;
+	padding: 0 9px;
 	margin: 0;
 }
 
