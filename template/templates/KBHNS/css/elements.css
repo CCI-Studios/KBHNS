@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 100; 
 	font-size: 24px;
 	color: #999;
-	margin: 0;
 }
 
 .item-page h1 {margin-bottom: 30px;}
@@ -23,6 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 	margin-bottom: 1em;
 	text-decoration: underline;
+}
+
+.item-page h3 {
+	font-size: 16px;
+	margin-bottom: .5em;
 }
 
 .item-page p {line-height: 1.3em;}
@@ -67,16 +71,6 @@ iframe {
 }
 .item-page dt:first-child {border-top: none;}
 .item-page dd {margin: 0;}
-
-/*our leadership page style*/
-
-.notre-equipe-de-direction p,
-.our-leadership p {	margin-bottom: 30px;}
-
-.notre-equipe-de-direction h2,
-.notre-equipe-de-direction h2 a,
-.our-leadership h2 ,
-.our-leadership h2 a {clear: both; color: #999;}
 
 /*contact header style*/
 
