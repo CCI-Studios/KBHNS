@@ -30,7 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: .5em;
 }
 
-.item-page p {line-height: 1.3em;}
+.item-page p {
+	line-height: 1.3em;
+	text-align: justify;
+}
 .item-page > *:first-child {margin-top: 0;}
 
 .item-page ul,
