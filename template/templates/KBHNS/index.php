@@ -96,9 +96,9 @@ $analytics = "UA-29722883-1";
 	</div>
 
 	<div id="footer"><div class="container">
-		<jdoc:include type="modules" name="footer" style="xhtml" />	
+		<jdoc:include type="modules" name="footer" style="xhtml" />
 	</div></div>
-
+	
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
 	</div>
