@@ -72,7 +72,7 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 
 .moduletable.copyright {
 	padding: 12px 0 40px;
-	background: url('../images/divider_footer.png') top center no-repeat;
+	background: url('../images/divider_footer.png') top center repeat-x;
 	font-size: 10px;
 	color: #ffffff;
 }
