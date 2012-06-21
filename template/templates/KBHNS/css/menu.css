@@ -173,7 +173,7 @@
 
 .moduletable_hmenu.secondary .menu > li {
 	padding: 0 0 0 54px;
-	color: #ffffff;
+	color: #606060;
 	vertical-align: top;
 }
 .moduletable_hmenu.secondary.french .menu > li {
@@ -200,7 +200,7 @@
 
 .moduletable_hmenu.secondary a,
 .moduletable_hmenu.secondary li li a {
-	color: #ffffff; 
+	color: #606060; 
 	font-weight: lighter;
 }
 
