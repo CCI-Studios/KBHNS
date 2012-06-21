@@ -4,7 +4,9 @@ body, select, input, textarea {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 14px;
 }
-body {background: #7d0143;}
+body {
+	background: #e4e4e4;
+}
 
 .cfdiv_select select, 
 .cfdiv_text label {width: 360px;}
