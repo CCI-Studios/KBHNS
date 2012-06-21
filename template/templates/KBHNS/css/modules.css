@@ -74,12 +74,9 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 	padding: 12px 0 40px;
 	background: url('../images/divider_footer.png') top center repeat-x;
 	font-size: 10px;
-	color: #ffffff;
 }
 
 .moduletable.siteBy {
 	float: right;
 	font-size: 10px;
 }
-
-.moduletable.siteBy a {color: #ffffff;}
