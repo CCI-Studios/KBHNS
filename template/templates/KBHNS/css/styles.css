@@ -15,7 +15,6 @@
 input.button_readmore,
 a.button_readmore {
 	background: url('../images/button_readMore.png') top center no-repeat;
-	color: #989898;
 	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
