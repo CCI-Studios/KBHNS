@@ -132,11 +132,11 @@
 .moduletable_hmenu.sidebar .menu div {margin-top: 24px;}
 
 .moduletable.partners li:first-child,
-.moduletable_hmenu.sidebar .menu ul li:first-child {border-top: 1px solid #d9d9d9;}
+.moduletable_hmenu.sidebar .menu ul li:first-child {border-top: 1px solid #999999;}
 
 .moduletable.partners li,
 .moduletable_hmenu.sidebar .menu ul li {
-	border-bottom: 1px solid #d9d9d9;
+	border-bottom: 1px solid #999999;
 }
 .moduletable.partners ul li:hover,
 .moduletable_hmenu.sidebar .menu ul li:hover {background: url('../images/menu_hoverSidebar.png') right center no-repeat;}
