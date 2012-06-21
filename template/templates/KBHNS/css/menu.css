@@ -30,7 +30,9 @@
 	text-transform: uppercase;
 }
 
-.module_hmenu.primary .menu > li {padding: 24px 5px 0px;}
+.module_hmenu.primary .menu > li {
+	padding: 24px 15px 0px;
+}
 
 .module_hmenu.primary .menu > li > a,
 .module_hmenu.primary .menu > li > span {color: #999999; cursor: default;}
