@@ -79,4 +79,5 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 .moduletable.siteBy {
 	float: right;
 	font-size: 10px;
+	margin-top: 10px;
 }
