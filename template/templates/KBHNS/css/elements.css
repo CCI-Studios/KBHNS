@@ -70,7 +70,7 @@ iframe {
 
 .item-page dt {
 	cursor: pointer;
-	border-top: 1px solid #606060;
+	border-top: 1px solid #999999;
 	line-height: 2;
 }
 .item-page dt:first-child {border-top: none;}
