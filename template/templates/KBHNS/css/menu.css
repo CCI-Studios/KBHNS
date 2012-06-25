@@ -32,6 +32,7 @@
 
 .module_hmenu.primary .menu > li {
 	padding: 24px 15px 0px;
+	cursor: pointer;
 }
 
 .module_hmenu.primary .menu > li:hover {background: url('../images/menu_hover.png') top center no-repeat;}
