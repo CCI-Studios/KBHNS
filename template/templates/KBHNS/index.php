@@ -38,7 +38,8 @@ $analytics = "UA-29722883-1";
  	<jdoc:include type="head" />
 
 	<meta name="viewport" content="width=960px">
-	<link rel="shortcut icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="/templates/<?= $this->template ?>/favicon-<?= $this->language ?>.ico">	
 	<link rel="apple-touch-icon" href="/templates/<?= $this->template ?>/resources/apple-touch-icon.png">
 
 	<!-- load css -->
