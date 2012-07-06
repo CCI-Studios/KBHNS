@@ -130,7 +130,7 @@
 }
 
 .moduletable_hmenu.sidebar .menu div {
-	margin: 24px 0 36px;
+	margin: 24px 0 26px;
 }
 
 .moduletable.partners li:first-child,
@@ -157,7 +157,8 @@
 .moduletable.partners ul {padding: 0;}
 
 .moduletable.partners li {
-	padding: 10px 43px 10px 0;
+	font-size: 12px;
+	padding: 7px 43px 7px 0;
 }
 
 /* footer menu */
