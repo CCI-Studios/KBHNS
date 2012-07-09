@@ -121,7 +121,8 @@
 .moduletable_hmenu.sidebar .menu > li.active {display: block;}
 
 .moduletable_hmenu.sidebar .menu > li > span,
-.moduletable_hmenu.sidebar .menu > li > a {
+.moduletable_hmenu.sidebar .menu > li > a,
+.moduletable span {
 	font-size: 40px;
 	line-height: 40px;
 	text-transform: uppercase;
@@ -130,7 +131,7 @@
 }
 
 .moduletable_hmenu.sidebar .menu div {
-	margin: 24px 0 26px;
+	margin: 24px 0;
 }
 
 .moduletable.partners li:first-child,
@@ -157,8 +158,7 @@
 .moduletable.partners ul {padding: 0;}
 
 .moduletable.partners li {
-	font-size: 12px;
-	padding: 7px 43px 7px 0;
+	padding: 10px 43px 10px 0;
 }
 
 /* footer menu */
