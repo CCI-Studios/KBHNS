@@ -14,10 +14,10 @@
 	display: inline-block;
 	margin: 0 auto;
 	width: 880px;
+	text-align: center;
 }
 .tab-container .tabs li:first-child {margin-left: 0;}
 .tab-container .tabs li {
-	float: left;
 	font-family: "alternate-gothic-no-1-d", Helvetica, Arial, sans-serif; 
 	font-weight: normal; 
 	font-size: 28px;
@@ -27,7 +27,7 @@
 	*zoom: 1;
 	color: #606060;
 	padding: 10px 0 5px 0;
-	margin: 20px 0 20px 172px;
+	margin: 20px 70px;
 	cursor: pointer;
 	line-height: 32px;
 }
