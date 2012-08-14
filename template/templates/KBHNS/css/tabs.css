@@ -59,6 +59,12 @@
 .tab-container .panel.careers { background-image: url('../images/bg_careers.png'); }
 .tab-container .panel.community { background-image: url('../images/bg_community.png'); }
 
+.tab-container .panel h1 {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0 0 3px;
+}
+
 .tab-container .panel p {
 	margin: 0;
 }
