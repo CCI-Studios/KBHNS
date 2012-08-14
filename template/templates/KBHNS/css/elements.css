@@ -43,9 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .item-page ul li a,
 .item-page ul li a:visited,
-.item-page ol li a {color: #606060;}
-.item-page ul li a:hover,
-.item-page ol li a:hover {color: #980153; text-decoration: none;}
+.item-page ol li a {color: #980153;}
 
 .item-page a,
 .item-page a:visited {color: #980153; text-decoration: none;}
