@@ -60,45 +60,49 @@ $analytics = "UA-29722883-1";
 </head>
 
 <body class="<?= $menu ?>">
-	<div id="header">
-			<div class="container">
-				<jdoc:include type="modules" name="header" style="rounded" />
-				<div id="headerTop"><jdoc:include type="modules" name="headerTop" style="xhtml" /></div>
+	<div id="wrapper">
+		<div id="header">
+			<div>
+				<div class="container">
+					<jdoc:include type="modules" name="header" style="rounded" />
+					<div id="headerTop"><jdoc:include type="modules" name="headerTop" style="xhtml" /></div>
+					<div class="clear"></div>
+				</div>
+			
+				<jdoc:include type="modules" name="banner" style="rounded" />
 				<div class="clear"></div>
 			</div>
-			
-			<jdoc:include type="modules" name="banner" style="rounded" />
-			<div class="clear"></div>
-	</div>
-	<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
 	
-	<div id="body">
-		<?php if ($this->countModules('top')): ?>
-		<div id="top"><div class="tab-container">
-			<jdoc:include type="modules" name="top" style="xhtml" />
-		</div></div>
+		<div id="body">
+			<?php if ($this->countModules('top')): ?>
+			<div id="top"><div class="tab-container">
+				<jdoc:include type="modules" name="top" style="xhtml" />
+			</div></div>
+			<?php endif; ?>
+		<?php if ($page_sfx !== '_hidden'): ?>
+			<div class="container">
+				<div id="sidebar">
+					<jdoc:include type="modules" name="sidebar" style="xhtml" />
+				</div>
+				<div id="content" class="<?php 
+							if (!$this->countModules('sidebar')) {
+								echo 'wide1';
+							} else {
+								echo 'wide2';
+							}
+					?>">
+					<jdoc:include type="component" />
+				</div>
+			<div class="clear"></div></div>
 		<?php endif; ?>
-	<?php if ($page_sfx !== '_hidden'): ?>
-		<div class="container">
-			<div id="sidebar">
-				<jdoc:include type="modules" name="sidebar" style="xhtml" />
-			</div>
-			<div id="content" class="<?php 
-						if (!$this->countModules('sidebar')) {
-							echo 'wide1';
-						} else {
-							echo 'wide2';
-						}
-				?>">
-				<jdoc:include type="component" />
-			</div>
-		<div class="clear"></div></div>
-	<?php endif; ?>
-	</div>
+		</div>
 
-	<div id="footer"><div class="container">
-		<jdoc:include type="modules" name="footer" style="xhtml" />
-	</div></div>
+		<div id="footer"><div class="container">
+			<jdoc:include type="modules" name="footer" style="xhtml" />
+		</div></div>
+	</div>
 	
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />

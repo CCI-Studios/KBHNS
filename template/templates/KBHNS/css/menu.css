@@ -28,17 +28,26 @@
 	float: right;
 	margin-top: 56px;
 	text-transform: uppercase;
+	background: url('../images/divider_menu.png') bottom center repeat-x;
+	padding-bottom: 20px;
 }
 
 .module_hmenu.primary .menu > li {
 	padding: 24px 15px 0px;
 	cursor: pointer;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .75);
+}
+
+.module_hmenu.primary.french .menu > li {
+	padding: 24px 8px 0;
 }
 
 .module_hmenu.primary .menu > li:hover {background: url('../images/menu_hover.png') top center no-repeat;}
 
-.module_hmenu.primary .menu > li:hover > a,
-.module_hmenu.primary .menu > li:hover > span {color: #980153;}
+.module_hmenu.primary .menu > li > a, 
+.module_hmenu.primary .menu > li > span {
+	color: #ffffff;
+}
 
 .module_hmenu.primary li div,
 .module_hmenu.primary li ul {width: 216px;}
@@ -53,8 +62,20 @@
 	top: 100%;
 }
 
-.module_hmenu.primary li.last {
-	padding-right: 0;
+.module_hmenu.primary .menu > li.first {
+	padding-left: 10px;
+	margin-left: -10px;
+}
+
+.module_hmenu.primary li.first li,
+.module_hmenu.primary .menu li.last li {
+	padding: 0;
+	margin: 0;
+}
+
+.module_hmenu.primary .menu > li.last {
+	padding-right: 10px;
+	margin-right: -10px;
 }
 
 .module_hmenu.primary li.last > div {
@@ -78,6 +99,7 @@
 .module_hmenu.primary li li {
 	background: url('../images/dropdownMiddle.png') center center repeat-y;
 	width: 216px;
+	text-shadow: none;
 }
 
 .module_hmenu.primary li:hover div {display: block;}

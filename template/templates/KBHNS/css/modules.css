@@ -8,6 +8,8 @@
 /* contact mod */
 .moduletable.contact { padding-top: 10px; }
 
+.moduletable.contact a {color: #ffffff;}
+
 /* language switcher*/
 
 .moduletable.langSwitch { position: relative; }
@@ -39,8 +41,8 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 /* masthead */
 
 .module.masthead {
-	background: url('../images/bg_masthead.png') top center repeat-x;
-	height: 74px;
+	font-size: 18px;
+	text-shadow: 2px 2px 4px #000;
 	width: 100%;
 	position: absolute;
 	bottom: 0px;
@@ -51,6 +53,12 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 .module.masthead > div {
 	margin: 0 auto;
 	width: 940px;
+}
+
+.module.masthead div.custom {
+	background: bottom right no-repeat;
+	padding: 160px 0 50px;
+	margin-top: -160px;
 }
 
 .module.masthead h3 {
@@ -64,8 +72,8 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 }
 
 .module.masthead p {
-	text-shadow: 2px 2px 4px #000;
 	margin: 0;
+	width: 480px;
 }
 
 /*copyright and site by modules*/
