@@ -58,6 +58,7 @@
 #footer {
 	background: url('../images/bg_footerRepeat.png') top center repeat-x;
 	height: 233px;
+	color: #444;
 }
 
 #footer > div {
