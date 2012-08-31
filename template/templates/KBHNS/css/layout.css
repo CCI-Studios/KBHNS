@@ -32,7 +32,10 @@
 	right: 10px;
 }
 
-#body {background: #ffffff url('../images/bg_topTop.png') top center no-repeat;}
+#body {
+	background: #ffffff url('../images/bg_topTop.png') top center no-repeat;
+	min-height: 400px;
+}
 
 #body .container {padding: 35px 0;}
 
