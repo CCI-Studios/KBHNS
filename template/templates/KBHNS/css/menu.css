@@ -186,19 +186,21 @@
 /* footer menu */
 
 .moduletable_hmenu.secondary {
-	color: #ffffff;
 	font-size: 11px;
 	line-height: 11px;
 	text-transform: uppercase;
 }
 
+.moduletable_hmenu.secondary span {
+	color: #444444;
+	font-weight: normal;
+}
 
 .moduletable_hmenu.secondary .menu > li:first-child,
 .moduletable_hmenu.secondary.french .menu > li:first-child {padding: 0;}
 
 .moduletable_hmenu.secondary .menu > li {
 	padding: 0 0 0 54px;
-	color: #606060;
 	vertical-align: top;
 }
 .moduletable_hmenu.secondary.french .menu > li {
@@ -225,8 +227,7 @@
 
 .moduletable_hmenu.secondary a,
 .moduletable_hmenu.secondary li li a {
-	color: #606060; 
-	font-weight: lighter;
+	color: #444444;
 }
 
 .module_hmenu .menu li.hidden { display: none; }
