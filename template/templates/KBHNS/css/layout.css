@@ -59,7 +59,6 @@
 
 #content {
 	float: left;
-	margin-top: 3px;
 }
 .wide1 {width: 940px;}
 .wide2 {width: 710px;}
@@ -67,7 +66,6 @@
 #footer {
 	background: url('../images/bg_footerRepeat.png') top center repeat-x;
 	height: 233px;
-	color: #444;
 }
 
 #footer > div {
