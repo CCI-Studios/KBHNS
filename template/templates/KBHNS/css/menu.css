@@ -179,8 +179,7 @@
 }
 
 .moduletable_hmenu.secondary span {
-	color: #444444;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .moduletable_hmenu.secondary .menu > li:first-child,
@@ -209,13 +208,8 @@
 	padding: 4px 0;
 }
 
-.moduletable_hmenu.secondary .menu > li > a {font-weight: normal;}
+.moduletable_hmenu.secondary .menu > li > a {font-weight: bold;}
 .moduletable_hmenu.secondary .menu > li > a:hover {text-decoration: none;}
-
-.moduletable_hmenu.secondary a,
-.moduletable_hmenu.secondary li li a {
-	color: #444444;
-}
 
 .module_hmenu .menu li.hidden { display: none; }
 .moduletable_hmenu.secondary li.hidden { display: inline-block; }
