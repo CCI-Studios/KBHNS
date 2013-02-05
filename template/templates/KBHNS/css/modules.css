@@ -45,10 +45,9 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 	font-size: 18px;
 	text-shadow: 2px 2px 4px #000;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	left: 0;
 	color: #ffffff;
+	/*position: absolute;*/
+	bottom: 0;
 }
 
 .module.masthead > div {
