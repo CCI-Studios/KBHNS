@@ -18,21 +18,21 @@
 }
 .tab-container .tabs li:first-child {margin-left: 0;}
 .tab-container .tabs li {
-	font-family: "alternate-gothic-no-1-d", Helvetica, Arial, sans-serif; 
-	font-weight: normal; 
-	font-size: 28px;
+	font-family: "News Gothic MT", Helvetica, Arial, sans-serif; 
+	font-weight: bold; 
+	font-size: 24px;
 	text-transform: uppercase;
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 	color: #606060;
 	padding: 10px 0 5px 0;
-	margin: 20px 70px;
+	margin: 20px 50px;
 	cursor: pointer;
 	line-height: 32px;
 }
 
-.tab-container .tabs li:hover {color: #980153;}
+.tab-container .tabs li:hover {color: #008d7f;}
 
 .tab-container .panel.active {
 	display: block;
@@ -72,25 +72,23 @@
 /* aboutKBHNS */
 .tab-container .tabs li {
 	background: left center no-repeat;
+	padding-left: 67px;
 }
 
 .tab-container .tabs li.aboutKBHNS {
-	background-image: url('../images/h3_aboutKBHNS.png');
-	padding-left: 60px;
+	background-image: url('../images/icon_aboutKBHNS.png');
 }
-.tab-container .tabs li.aboutKBHNS:hover { background-image: url('../images/h3_aboutKBHNS-hover.png'); }
+.tab-container .tabs li.aboutKBHNS:hover { background-image: url('../images/icon_aboutKBHNS-hover.png'); }
 
 .tab-container .tabs li.careers {
-	background-image: url('../images/h3_careers.png');
-	padding-left: 70px;
+	background-image: url('../images/icon_services.png');
 }
-.tab-container .tabs li.careers:hover { background-image: url('../images/h3_careers-hover.png'); }
+.tab-container .tabs li.careers:hover { background-image: url('../images/icon_services-hover.png'); }
 
 .tab-container .tabs li.community {
-	background: url('../images/h3_community.png') left center no-repeat;
-	padding-left: 72px;
+	background: url('../images/icon_careers.png') left center no-repeat;
 }
-.tab-container .tabs li.community:hover { background-image: url('../images/h3_community-hover.png'); }
+.tab-container .tabs li.community:hover { background-image: url('../images/icon_careers-hover.png'); }
 
 /*top modules in slideshow*/
 
