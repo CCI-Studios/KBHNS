@@ -68,11 +68,14 @@ $analytics = "UA-29722883-1";
 					<div id="headerTop"><jdoc:include type="modules" name="headerTop" style="xhtml" /></div>
 					<div class="clear"></div>
 				</div>
-			
-				<jdoc:include type="modules" name="banner" style="rounded" />
-				<div class="clear"></div>
 			</div>
 		</div>
+
+		<div id="masthead">
+			<jdoc:include type="modules" name="masthead" style="rounded" />
+			<div class="clear"></div>
+		</div>
+
 		<div class="clear"></div>
 	
 		<div id="body">
