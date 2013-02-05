@@ -16,7 +16,6 @@
 	width: 880px;
 	text-align: center;
 }
-.tab-container .tabs li:first-child {margin-left: 0;}
 .tab-container .tabs li {
 	font-family: "News Gothic MT", Helvetica, Arial, sans-serif; 
 	font-weight: bold; 
@@ -31,6 +30,10 @@
 	cursor: pointer;
 	line-height: 32px;
 }
+.home-french .tab-container .tabs li {
+	margin: 20px 30px;
+}
+.tab-container .tabs li:first-child {margin-left: 0;}
 
 .tab-container .tabs li:hover {color: #008d7f;}
 
