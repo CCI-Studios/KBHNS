@@ -30,7 +30,7 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 	margin: 0;
 }
 
-.moduletable.langSwitch li.lang-active a {color: #980153;}
+.moduletable.langSwitch li.lang-active a {color: #008d7f;}
 
 /* logo in header */
 .module.logo {
