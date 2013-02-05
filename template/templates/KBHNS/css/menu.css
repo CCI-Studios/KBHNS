@@ -135,6 +135,12 @@
 
 /* sidebar menu (main sidebar menu + partners menu)*/
 
+.moduletable_hmenu.sidebar,
+.moduletable.partners {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 .moduletable.partners li,
 .moduletable_hmenu.sidebar .menu li {list-style: none;}
 .moduletable_hmenu.sidebar .menu > li {display: none;}
@@ -142,44 +148,27 @@
 
 .moduletable_hmenu.sidebar .menu > li > span,
 .moduletable_hmenu.sidebar .menu > li > a,
-.moduletable span {
-	font-size: 40px;
-	line-height: 40px;
-	text-transform: uppercase;
-	color: #980153;
-	font-family: "alternate-gothic-no-1-d", Helvetica, Arial, sans-serif;
+.moduletable.partners span {
+	display: none;
 }
 
-.moduletable_hmenu.sidebar .menu div {
-	margin: 24px 0;
-}
-
-.moduletable.partners li:first-child,
-.moduletable_hmenu.sidebar .menu ul li:first-child {border-top: 1px solid #999999;}
-
-.moduletable.partners li,
-.moduletable_hmenu.sidebar .menu ul li {
+.moduletable_hmenu.sidebar li.active li,
+.moduletable.partners li {
 	border-bottom: 1px solid #999999;
+	padding: 20px 0;
 }
-.moduletable.partners ul li:hover,
-.moduletable_hmenu.sidebar .menu ul li:hover {background: url('../images/menu_hoverSidebar.png') right center no-repeat;}
 
-.moduletable_hmenu.sidebar .menu div a, 
-.moduletable_hmenu.sidebar .menu div a:hover {
-	display: block;
-	padding: 10px 43px 10px 0;
+.moduletable_hmenu.sidebar li.active li:first-child {
+	padding-top: 0;
 }
+
 .moduletable.partners li a:hover,
-.moduletable_hmenu.sidebar .menu div a:hover {color: #980153;}
+.moduletable_hmenu.sidebar .menu div a:hover {color: #008d7f;}
 
 .moduletable.partners a,
 .moduletable_hmenu.sidebar a {text-decoration: none;}
 
 .moduletable.partners ul {padding: 0;}
-
-.moduletable.partners li {
-	padding: 10px 43px 10px 0;
-}
 
 /* footer menu */
 
