@@ -26,6 +26,18 @@
 	right: 10px;
 }
 
+#masthead {
+	background: url('../images/bg_mastheadInnerSmall.jpg') bottom center no-repeat;
+	position: relative;
+	height: 150px;
+}
+
+.home-english #masthead,
+.home-french #masthead {
+	background: url('../images/bg_mastheadInner.jpg') bottom center no-repeat;
+	height: 293px;
+}
+
 #body {
 	background: #ffffff url('../images/bg_topTop.png') top center no-repeat;
 	min-height: 400px;
