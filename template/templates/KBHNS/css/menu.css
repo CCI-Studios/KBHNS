@@ -28,14 +28,12 @@
 	float: right;
 	margin-top: 56px;
 	text-transform: uppercase;
-	background: url('../images/divider_menu.png') bottom center repeat-x;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .module_hmenu.primary .menu > li {
 	padding: 24px 15px 0px;
 	cursor: pointer;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .75);
 }
 
 .module_hmenu.primary.french .menu > li {
@@ -46,7 +44,7 @@
 
 .module_hmenu.primary .menu > li > a, 
 .module_hmenu.primary .menu > li > span {
-	color: #ffffff;
+	color: #008d7f;
 }
 
 .module_hmenu.primary li div,
@@ -55,8 +53,8 @@
 .module_hmenu.primary li div {
 	display: none;
 	position: absolute;
-	background: url('../images/dropdownTop.png') -1px -1px no-repeat;
-	padding-top: 11px; 
+	background: url('../images/dropdownTop.png') -1px 11px no-repeat;
+	padding-top: 23px; 
 	z-index: 1;
 	left: 5px;
 	top: 100%;
@@ -106,7 +104,7 @@
 
 .module_hmenu.primary .menu ul {padding-left: 0;}
 
-.module_hmenu.primary li li:hover {background: #980153;}
+.module_hmenu.primary li li:hover {background: #3daea7;}
 
 .module_hmenu.primary li li a {
 	display: block;
