@@ -11,20 +11,14 @@
 }
 
 #header {
-	background: url('../images/bg_headerOuter.jpg') top center repeat-x;
-	position: relative;
+	background-color: #ffffff;
 }
 
 #header > div {
-	background: url('../images/bg_headerInner.jpg') top center no-repeat;
-	height: 172px;
+	
 }
 
 #header .container { position: relative; }
-
-.home #header > div,
-.home-english #header > div,
-.home-french #header > div { height: 395px; }
 
 #headerTop {
 	position: absolute;
