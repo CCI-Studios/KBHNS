@@ -34,8 +34,9 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 
 /* logo in header */
 .module.logo {
-	padding-top: 33px;
-	float: left;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 
 /* masthead */
