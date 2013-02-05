@@ -37,7 +37,7 @@ input.button_readmore {
 }
 
 input.button_readmore:hover,
-a.button_readmore:hover {text-decoration: none; color: #980153;}
+a.button_readmore:hover {text-decoration: none;}
 
 .noLink {cursor: default;}
 
