@@ -35,7 +35,7 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 /* logo in header */
 .module.logo {
 	position: absolute;
-	left: 0;
+	left: 10px;
 	bottom: 0;
 }
 
@@ -44,25 +44,13 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 .module.masthead {
 	font-size: 18px;
 	text-shadow: 2px 2px 4px #000;
-	width: 100%;
 	color: #ffffff;
-	/*position: absolute;*/
-	bottom: 0;
 }
 
-.module.masthead > div {
-	margin: 0 auto;
-	width: 940px;
-}
-
-.module.masthead h3 {
-	font-family: "News Gothic MT", Helvetica, Arial, sans-serif;
-	font-size: 40px;
-	text-transform: uppercase;
-	line-height: 40px;
-	padding: 5px 0;
-	margin: 0;
-	color: #ffffff;
+.module.masthead .custom {
+	background: 118% 0 no-repeat;
+	height: 293px;
+	padding-right: 490px;
 }
 
 /*copyright and site by modules*/
