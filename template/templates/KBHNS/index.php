@@ -71,10 +71,12 @@ $analytics = "UA-29722883-1";
 			</div>
 		</div>
 
-		<div id="masthead">
-			<jdoc:include type="modules" name="masthead" style="rounded" />
-			<div class="clear"></div>
-		</div>
+		<div id="masthead"><div><div><div>
+				<div class="container">
+					<jdoc:include type="modules" name="masthead" style="rounded" />
+					<div class="clear"></div>
+				</div>
+		</div></div></div></div>
 
 		<div class="clear"></div>
 	
