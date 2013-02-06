@@ -14,10 +14,6 @@
 	background-color: #ffffff;
 }
 
-#header > div {
-	
-}
-
 #header .container { position: relative; }
 
 #headerTop {
@@ -27,15 +23,29 @@
 }
 
 #masthead {
-	background: url('../images/bg_mastheadInnerSmall.jpg') bottom center no-repeat;
+	background: url('../images/bg_mastheadRepeat.jpg') center center repeat-x;
 	position: relative;
 	height: 150px;
 }
 
 .home-english #masthead,
 .home-french #masthead {
-	background: url('../images/bg_mastheadInner.jpg') bottom center no-repeat;
 	height: 293px;
+}
+
+#masthead > div {
+	background: url('../images/bg_mastheadInner.png') 145px bottom no-repeat;
+	height: 100%;
+}
+
+#masthead > div > div {
+	background: url('../images/masthead_shadow_top.png') top center repeat-x;
+	height: 100%;
+}
+
+#masthead > div > div > div {
+	background: url('../images/masthead_shadow_bottom.png') bottom center repeat-x;
+	height: 100%;
 }
 
 #body {
