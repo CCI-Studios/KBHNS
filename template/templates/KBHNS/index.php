@@ -49,7 +49,7 @@ $analytics = "UA-29722883-1";
 		<link rel="stylesheet" href="/templates/<?= $this->template ?>/css/template.min.css">
 	<?php endif; ?>
 	
-	<script type="text/javascript" src="http://use.typekit.com/hkp7xgo.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/vau7tev.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<!-- load modernizer, all other at bottom -->
 	<?php if ($testing): ?>
