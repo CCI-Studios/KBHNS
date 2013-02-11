@@ -59,8 +59,8 @@
 }
 
 .tab-container .panel.aboutKBHNS { background-image: url('../images/bg_aboutKBHNS.png'); }
+.tab-container .panel.services { background-image: url('../images/bg_services.png'); }
 .tab-container .panel.careers { background-image: url('../images/bg_careers.png'); }
-.tab-container .panel.community { background-image: url('../images/bg_community.png'); }
 
 .tab-container .panel h1 {
 	font-size: 24px;
@@ -83,15 +83,15 @@
 }
 .tab-container .tabs li.aboutKBHNS:hover { background-image: url('../images/icon_aboutKBHNS-hover.png'); }
 
-.tab-container .tabs li.careers {
+.tab-container .tabs li.services {
 	background-image: url('../images/icon_services.png');
 }
-.tab-container .tabs li.careers:hover { background-image: url('../images/icon_services-hover.png'); }
+.tab-container .tabs li.services:hover { background-image: url('../images/icon_services-hover.png'); }
 
-.tab-container .tabs li.community {
+.tab-container .tabs li.careers {
 	background: url('../images/icon_careers.png') left center no-repeat;
 }
-.tab-container .tabs li.community:hover { background-image: url('../images/icon_careers-hover.png'); }
+.tab-container .tabs li.careers:hover { background-image: url('../images/icon_careers-hover.png'); }
 
 /*top modules in slideshow*/
 
