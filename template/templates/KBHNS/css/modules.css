@@ -12,10 +12,12 @@
 
 /* language switcher*/
 
-.moduletable.langSwitch { position: relative; }
+.moduletable.langSwitch { 
+	position: relative;
+	font-family: 'News Gothic MT', Helvetica, Arial, sans-serif;
+}
 .moduletable.langSwitch > div {
 	z-index:100;
-	
 	height: 34px;
 	width: 155px;
 	background: url('../images/button_langSwitch.png') left no-repeat;
