@@ -53,6 +53,10 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 	padding-right: 490px;
 }
 
+.module.titleImage {
+	padding-top: 60px;
+}
+
 /*copyright and site by modules*/
 
 .moduletable.copyright {
