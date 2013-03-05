@@ -53,6 +53,20 @@ div.mod-languages ul.lang-inline li {display: inline-block; *display: inline; *z
 	background: bottom right no-repeat;
 	height: 293px;
 	padding-right: 490px;
+	position: relative;
+}
+
+.module.masthead .mastheadBackground {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+
+.module.masthead .mastheadWorkers {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
 }
 
 .module.titleImage {

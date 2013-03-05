@@ -33,11 +33,6 @@
 	height: 293px;
 }
 
-#masthead > div {
-	background: url('../images/bg_mastheadInner.png') 145px bottom no-repeat;
-	height: 100%;
-}
-
 #masthead > div > div {
 	background: url('../images/masthead_shadow_top.png') top center repeat-x;
 	height: 100%;
