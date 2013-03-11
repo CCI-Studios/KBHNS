@@ -14,7 +14,10 @@
 	background-color: #ffffff;
 }
 
-#header .container { position: relative; }
+#header .container { 
+	position: relative;
+	z-index: 3;
+}
 
 #headerTop {
 	position: absolute;
@@ -25,7 +28,7 @@
 #masthead {
 	background: url('../images/bg_mastheadRepeat.jpg') center center repeat-x;
 	position: relative;
-	height: 150px;
+	overflow: hidden;
 }
 
 .home-english #masthead,
